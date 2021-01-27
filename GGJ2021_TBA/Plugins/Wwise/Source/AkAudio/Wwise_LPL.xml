@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<init>
+		<log text="Wwise UPL init" />
+	</init>
+	<stageFiles>
+		<copyDir src="$S(PluginDir)/../../ThirdParty/Lumin/Profile/bin/" dst="$S(ProjectDir)/Saved/StagedBuilds/Lumin/bin/" bForce="true" />
+		<log text="Wwise plug-ins copied for Lumin" />
+	</stageFiles>
+</root>
