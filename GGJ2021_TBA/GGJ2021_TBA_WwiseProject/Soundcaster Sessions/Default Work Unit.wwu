@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{21B254E4-8D8A-4C20-9EBD-288392049643}" SchemaVersion="97">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{21B254E4-8D8A-4C20-9EBD-288392049643}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{21B254E4-8D8A-4C20-9EBD-288392049643}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Test" ID="{98A73000-B778-4C4C-B99C-E0FE27F2A073}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="MenuMusic_Start" ID="{75BB5382-0205-41F1-B402-C0036B5E00F5}" WorkUnitID="{E9412A87-EC69-4988-9505-A324478FC53A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MenuMusic_Stop" ID="{8891F2F4-8BB9-494E-9192-6AA206D58749}" WorkUnitID="{E9412A87-EC69-4988-9505-A324478FC53A}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MainMusic_Start" ID="{2EDB1644-2FA6-4B95-98E3-74BF4D64072F}" WorkUnitID="{E9412A87-EC69-4988-9505-A324478FC53A}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Forest" ID="{25290BF0-B8D2-4678-A17B-A3CDEFB16988}"/>
+						<CurrentSwitchRef Name="Run" ID="{CB0EFCC9-7ECA-4940-B02B-CEB581453551}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

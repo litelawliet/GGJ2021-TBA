@@ -7,9 +7,6 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3893417221	Weapon			\Default Work Unit\Master Audio Bus\SFX\Weapon	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
-Effect plug-ins	ID	Name	Type				Notes
-	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
-
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			

@@ -8,9 +8,6 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{1E1AEA13-A537-49BB-B835-AF76D70328DD}" WorkUnitID="{29287274-A69B-4F99-A21A-74C856B00D76}"/>
 						</Reference>
-						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
-							<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="SFX" ID="{D1F0B43D-B433-4FAD-A0FA-821073579B28}">
@@ -23,6 +20,11 @@
 						</Bus>
 						<Bus Name="Music" ID="{7FADA3D8-9C37-4A92-8C1A-CA6FCB11494A}">
 							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 							</PropertyList>
 							<PositioningInfo>

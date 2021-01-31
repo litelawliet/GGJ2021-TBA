@@ -33,6 +33,8 @@
 				<SoundBank Name="Music" ID="{37F69B90-4014-4159-874F-5CD78112FAFF}">
 					<ObjectInclusionList>
 						<ObjectRef Name="MainMusic_Stop" ID="{7B0739CE-E162-4117-AA39-6AE2D6D33F44}" WorkUnitID="{E9412A87-EC69-4988-9505-A324478FC53A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MenuMusic_Start" ID="{75BB5382-0205-41F1-B402-C0036B5E00F5}" WorkUnitID="{E9412A87-EC69-4988-9505-A324478FC53A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MenuMusic_Stop" ID="{8891F2F4-8BB9-494E-9192-6AA206D58749}" WorkUnitID="{E9412A87-EC69-4988-9505-A324478FC53A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MainMusic_Start" ID="{2EDB1644-2FA6-4B95-98E3-74BF4D64072F}" WorkUnitID="{E9412A87-EC69-4988-9505-A324478FC53A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
