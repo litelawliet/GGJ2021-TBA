@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}" SchemaVersion="97">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{1E1AEA13-A537-49BB-B835-AF76D70328DD}" WorkUnitID="{29287274-A69B-4F99-A21A-74C856B00D76}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{D1F0B43D-B433-4FAD-A0FA-821073579B28}">
+							<ChildrenList>
+								<Bus Name="Ambiance" ID="{49A2FC4C-69AA-47C1-8754-13E7AA7F6B76}"/>
+								<Bus Name="Environment" ID="{565610AE-D14D-4547-8E2E-E84823C61C20}"/>
+								<Bus Name="Player" ID="{0B705C30-B5B3-45E1-8AA6-5F1DD52C7162}"/>
+								<Bus Name="Weapon" ID="{A00B28E6-8DD8-4FBA-9816-8CFADDE9F7C3}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Music" ID="{7FADA3D8-9C37-4A92-8C1A-CA6FCB11494A}"/>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

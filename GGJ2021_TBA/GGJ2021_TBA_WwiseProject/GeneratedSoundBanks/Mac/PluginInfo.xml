@@ -3,7 +3,6 @@
 	<Plugins>
 		<Plugin Name="Wwise Silence" ID="6619138" DLL="AkSilenceGenerator"/>
 		<Plugin Name="Wwise Peak Limiter" ID="7208963" DLL="AkPeakLimiter"/>
-		<Plugin Name="Wwise Recorder" ID="8650755" DLL="AkRecorder"/>
 		<Plugin Name="System" ID="11403271" DLL="DefaultSink"/>
 		<Plugin Name="No Output" ID="11862023" DLL="DefaultSink"/>
 	</Plugins>

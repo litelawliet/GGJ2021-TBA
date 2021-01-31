@@ -9,9 +9,6 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
-	2422951881	PlayerRecord	Wwise Recorder			
-	2679582167	Ambiance_Record	Wwise Recorder			
-	3349386653	MusicRecord	Wwise Recorder			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
