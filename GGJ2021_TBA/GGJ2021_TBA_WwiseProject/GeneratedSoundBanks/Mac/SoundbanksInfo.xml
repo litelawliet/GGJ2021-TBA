@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="2768526485">
+		<SoundBank Id="393239870" Language="SFX" Hash="158593114">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -536,19 +536,19 @@
 					<IncludedMemoryFiles>
 						<File Id="272272747" Language="SFX">
 							<ShortName>PlayerJumpWhoosh2.wav</ShortName>
-							<Path>SFX\PlayerJumpWhoosh2_10C4C929.wem</Path>
+							<Path>SFX\PlayerJumpWhoosh2_955829B8.wem</Path>
 						</File>
 						<File Id="486422399" Language="SFX">
 							<ShortName>PlayerJumpWhoosh1.wav</ShortName>
-							<Path>SFX\PlayerJumpWhoosh1_10C4C929.wem</Path>
+							<Path>SFX\PlayerJumpWhoosh1_65E8F6B1.wem</Path>
 						</File>
 						<File Id="643744722" Language="SFX">
 							<ShortName>PlayerJumpWhoosh4.wav</ShortName>
-							<Path>SFX\PlayerJumpWhoosh4_10C4C929.wem</Path>
+							<Path>SFX\PlayerJumpWhoosh4_E428FF86.wem</Path>
 						</File>
 						<File Id="730911619" Language="SFX">
 							<ShortName>PlayerJumpWhoosh3.wav</ShortName>
-							<Path>SFX\PlayerJumpWhoosh3_10C4C929.wem</Path>
+							<Path>SFX\PlayerJumpWhoosh3_266A181A.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -683,12 +683,12 @@
 				<Trigger Id="2092003595" Name="EnemyKill" ObjectPath="\Triggers\Default Work Unit\Music\EnemyKill"/>
 			</Triggers>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="765110950">
+		<SoundBank Id="1355168291" Language="SFX" Hash="550173867">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="3275022173">
+		<SoundBank Id="3991942870" Language="SFX" Hash="3799734550">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
@@ -758,6 +758,15 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3439190578" Name="MainMusic_Stop" ObjectPath="\Events\Default Work Unit\Music\MainMusic_Stop"/>
+				<Event Id="383524824" Name="MenuMusic_Start" ObjectPath="\Events\Default Work Unit\Music\MenuMusic_Start">
+					<IncludedMemoryFiles>
+						<File Id="499149509" Language="SFX">
+							<ShortName>MainMenuMusic.wav</ShortName>
+							<Path>SFX\MainMenuMusic_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1115745636" Name="MenuMusic_Stop" ObjectPath="\Events\Default Work Unit\Music\MenuMusic_Stop"/>
 			</IncludedEvents>
 			<Triggers>
 				<Trigger Id="2092003595" Name="EnemyKill" ObjectPath="\Triggers\Default Work Unit\Music\EnemyKill"/>

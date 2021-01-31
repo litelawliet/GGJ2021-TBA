@@ -1,4 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
+	383524824	MenuMusic_Start			\Default Work Unit\Music\MenuMusic_Start	
+	1115745636	MenuMusic_Stop			\Default Work Unit\Music\MenuMusic_Stop	
 	3439190578	MainMusic_Stop			\Default Work Unit\Music\MainMusic_Stop	
 	4088375194	MainMusic_Start			\Default Work Unit\Music\MainMusic_Start	
 
@@ -10,6 +12,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	142318509	TriggerHarpe1	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\TriggerHarpe1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\TriggerE\TriggerHarpe1		725804
 	366858165	TriggerHarpe1	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\TriggerShamisen1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\TriggerE\TriggerHarpe1		725804
 	476803043	TriggerA	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\TriggerHarpe4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\TriggerA\TriggerA		624064
+	499149509	MainMenuMusic	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\MainMenuMusic_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MainMenu\MainMenuMusic\MainMenuMusic		8160064
 	577851615	Intro_8M_P1B	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\Intro_8M_P1B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MainMusic\Intro_8M_P1B\Intro_8M_P1B		4920064
 	642892049	SectionGongs_8M_P0	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\SectionGongs_8M_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MainMusic\SectionGongs_8M_P1B\SectionGongs_8M_P0		4440064
 	657633154	SectionTaikosB_4M_P0	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\SectionTaikosB_4M_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MainMusic\SectionTaikosB_4M_P0\SectionTaikosB_4M_P0		2400064
