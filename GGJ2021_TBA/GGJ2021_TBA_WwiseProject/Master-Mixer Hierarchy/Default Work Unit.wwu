@@ -4,11 +4,64 @@
 		<WorkUnit Name="Default Work Unit" ID="{7E7E8BFB-5EFE-4EBF-BCF6-EBD6C6BDE792}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{1E1AEA13-A537-49BB-B835-AF76D70328DD}" WorkUnitID="{29287274-A69B-4F99-A21A-74C856B00D76}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{50985F38-63B0-4CDD-B8BD-E39D30E0FE4D}">
+							<ChildrenList>
+								<Bus Name="Ambiance" ID="{AD8F0092-1B85-4BDA-8921-2D1C98D0DC68}">
+									<PropertyList>
+										<Property Name="BypassEffect0" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+											<ObjectRef Name="Ambiance_Record" ID="{464AD2A7-29A3-4C08-85FA-524ACA873485}" WorkUnitID="{21BD863C-4C45-4B75-AE13-0E21C209C3BF}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+								<Bus Name="Environment" ID="{9E15E6AA-D0E6-41DC-9A34-F22C84A29787}"/>
+								<Bus Name="Player" ID="{3D71C711-6DDA-4BF8-83F5-40DA8AC0CF8A}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+											<ObjectRef Name="PlayerRecord" ID="{E676CF8D-787F-44D6-9173-5528725B49DC}" WorkUnitID="{21BD863C-4C45-4B75-AE13-0E21C209C3BF}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+								<Bus Name="Weapon" ID="{BCFD4909-483B-4785-A4CA-70D6CD2A8746}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Music" ID="{A78AC605-AE5A-494A-827A-C15EF3C744E3}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+									<ObjectRef Name="MusicRecord" ID="{2A3D064C-10B5-4C30-9002-5E7556800CE8}" WorkUnitID="{21BD863C-4C45-4B75-AE13-0E21C209C3BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
