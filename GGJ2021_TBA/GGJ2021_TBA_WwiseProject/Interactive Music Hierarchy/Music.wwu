@@ -5,16 +5,56 @@
 			<ChildrenList>
 				<MusicPlaylistContainer Name="MainMusic" ID="{1A7336FF-87A4-46CD-9227-EB6767259A91}" ShortID="890752613">
 					<PropertyList>
-						<Property Name="3DPosition" Type="int16" Value="2"/>
-						<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 						<Property Name="Tempo" Type="Real64" Value="96"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-8</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{DFB911CA-8B6E-4309-A68D-B68A19C44E4B}" ShortID="118390669">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{EB220A75-279A-4F59-943A-37E398D54412}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>0</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
 						</Reference>
@@ -471,6 +511,12 @@
 						</MusicSegment>
 					</ChildrenList>
 					<PositioningInfo>
+						<Panner Name="" ID="{EC220027-1669-4EED-9133-EA0AE846DA6E}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-0.399999999999997"/>
+								<Property Name="PanY" Type="Real64" Value="99.1525423728814"/>
+							</PropertyList>
+						</Panner>
 						<Position Name="" ID="{BBF4A096-B234-46B5-AFD4-DC157838D61F}"/>
 					</PositioningInfo>
 					<TransitionList>

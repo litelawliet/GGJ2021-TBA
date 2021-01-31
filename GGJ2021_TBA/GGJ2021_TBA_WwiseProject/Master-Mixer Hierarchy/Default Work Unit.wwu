@@ -21,7 +21,14 @@
 								<Bus Name="Weapon" ID="{A00B28E6-8DD8-4FBA-9816-8CFADDE9F7C3}"/>
 							</ChildrenList>
 						</Bus>
-						<Bus Name="Music" ID="{7FADA3D8-9C37-4A92-8C1A-CA6FCB11494A}"/>
+						<Bus Name="Music" ID="{7FADA3D8-9C37-4A92-8C1A-CA6FCB11494A}">
+							<PropertyList>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
+							<PositioningInfo>
+								<Panner Name="" ID="{A997D11E-2268-4DF9-AE05-35F5C8934BC8}"/>
+							</PositioningInfo>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
