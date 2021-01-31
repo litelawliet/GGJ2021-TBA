@@ -54,8 +54,16 @@
 							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="EnemyDie" ID="{67E90992-5D16-4640-A4A4-6036673728F7}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="ProjectileLoop_End" ID="{F29FCF20-AA44-4364-BFE2-B7F7FEBF34D7}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
 							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FindEgg" ID="{D384576A-E618-46C1-AB2F-E1375C9F16B7}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
+							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>

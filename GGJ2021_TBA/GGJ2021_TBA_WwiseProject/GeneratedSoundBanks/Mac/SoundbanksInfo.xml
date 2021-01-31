@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="879417738">
+		<SoundBank Id="393239870" Language="SFX" Hash="2220915572">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -140,9 +140,6 @@
 							<Path>SFX\DieWind3_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<ActionTrigger>
-						<ActionTriggerEntry Id="2092003595" Name="EnemyKill" ObjectPath="\Triggers\Default Work Unit\Music\EnemyKill"/>
-					</ActionTrigger>
 				</Event>
 				<Event Id="2446068219" Name="EnemyFire" ObjectPath="\Events\Default Work Unit\SFX\Environment\Enemy\EnemyFire">
 					<IncludedMemoryFiles>
@@ -181,6 +178,22 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2892408348" Name="EnemyIdle_Stop" ObjectPath="\Events\Default Work Unit\SFX\Environment\Enemy\EnemyIdle_Stop"/>
+				<Event Id="2756753979" Name="FindEgg" ObjectPath="\Events\Default Work Unit\SFX\Player\FindEgg">
+					<IncludedMemoryFiles>
+						<File Id="142072443" Language="SFX">
+							<ShortName>FindEgg1.wav</ShortName>
+							<Path>SFX\FindEgg1_10C4C929.wem</Path>
+						</File>
+						<File Id="663307940" Language="SFX">
+							<ShortName>FindEgg3.wav</ShortName>
+							<Path>SFX\FindEgg3_10C4C929.wem</Path>
+						</File>
+						<File Id="805928260" Language="SFX">
+							<ShortName>FindEgg2.wav</ShortName>
+							<Path>SFX\FindEgg2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1218826761" Name="GrappleHit" ObjectPath="\Events\Default Work Unit\SFX\Environment\Grapple\GrappleHit">
 					<IncludedMemoryFiles>
 						<File Id="228181844" Language="SFX">
@@ -568,22 +581,6 @@
 							<ShortName>PlayerThrowSwoosh2.wav</ShortName>
 							<Path>SFX\PlayerThrowSwoosh2_10C4C929.wem</Path>
 						</File>
-						<File Id="539447987" Language="SFX">
-							<ShortName>Throw\PlayerThrowGrunt2.wav</ShortName>
-							<Path>SFX\Throw\PlayerThrowGrunt2_10C4C929.wem</Path>
-						</File>
-						<File Id="562500684" Language="SFX">
-							<ShortName>Throw\PlayerThrowGrunt3.wav</ShortName>
-							<Path>SFX\Throw\PlayerThrowGrunt3_10C4C929.wem</Path>
-						</File>
-						<File Id="603722446" Language="SFX">
-							<ShortName>Throw\PlayerThrowGrunt4.wav</ShortName>
-							<Path>SFX\Throw\PlayerThrowGrunt4_10C4C929.wem</Path>
-						</File>
-						<File Id="795118085" Language="SFX">
-							<ShortName>Throw\PlayerThrowGrunt1.wav</ShortName>
-							<Path>SFX\Throw\PlayerThrowGrunt1_10C4C929.wem</Path>
-						</File>
 						<File Id="1022959001" Language="SFX">
 							<ShortName>PlayerThrowSwoosh1.wav</ShortName>
 							<Path>SFX\PlayerThrowSwoosh1_10C4C929.wem</Path>
@@ -680,16 +677,13 @@
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
-			<Triggers>
-				<Trigger Id="2092003595" Name="EnemyKill" ObjectPath="\Triggers\Default Work Unit\Music\EnemyKill"/>
-			</Triggers>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="550173867">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="3745633294">
+		<SoundBank Id="3991942870" Language="SFX" Hash="1227342255">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
@@ -770,7 +764,7 @@
 				<Event Id="1115745636" Name="MenuMusic_Stop" ObjectPath="\Events\Default Work Unit\Music\MenuMusic_Stop"/>
 			</IncludedEvents>
 			<Triggers>
-				<Trigger Id="2092003595" Name="EnemyKill" ObjectPath="\Triggers\Default Work Unit\Music\EnemyKill"/>
+				<Trigger Id="2756753979" Name="FindEgg" ObjectPath="\Triggers\Default Work Unit\Music\FindEgg"/>
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>

@@ -125,7 +125,7 @@
 									<PropertyList>
 										<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
 									</PropertyList>
-									<TriggerRef Name="EnemyKill" ID="{C22A6D3D-283D-4493-9C51-F59BEA3953A6}" WorkUnitID="{A710FBE1-D007-4044-86B5-35A838ED874B}"/>
+									<TriggerRef Name="FindEgg" ID="{C22A6D3D-283D-4493-9C51-F59BEA3953A6}" WorkUnitID="{A710FBE1-D007-4044-86B5-35A838ED874B}"/>
 									<SegmentRef Name="TriggerA" ID="{985DD911-5A21-43C8-9E1C-6DD303EE163C}" WorkUnitID="{8FB02BFB-4922-4FFE-A8EA-B0EDBE68DD05}"/>
 								</MusicStinger>
 							</StingerList>
@@ -200,7 +200,7 @@
 									<PropertyList>
 										<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
 									</PropertyList>
-									<TriggerRef Name="EnemyKill" ID="{C22A6D3D-283D-4493-9C51-F59BEA3953A6}" WorkUnitID="{A710FBE1-D007-4044-86B5-35A838ED874B}"/>
+									<TriggerRef Name="FindEgg" ID="{C22A6D3D-283D-4493-9C51-F59BEA3953A6}" WorkUnitID="{A710FBE1-D007-4044-86B5-35A838ED874B}"/>
 									<SegmentRef Name="TriggerE" ID="{2EA53CCB-464D-41ED-B79C-A36E39261CA8}" WorkUnitID="{8FB02BFB-4922-4FFE-A8EA-B0EDBE68DD05}"/>
 								</MusicStinger>
 							</StingerList>
@@ -275,7 +275,7 @@
 									<PropertyList>
 										<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
 									</PropertyList>
-									<TriggerRef Name="EnemyKill" ID="{C22A6D3D-283D-4493-9C51-F59BEA3953A6}" WorkUnitID="{A710FBE1-D007-4044-86B5-35A838ED874B}"/>
+									<TriggerRef Name="FindEgg" ID="{C22A6D3D-283D-4493-9C51-F59BEA3953A6}" WorkUnitID="{A710FBE1-D007-4044-86B5-35A838ED874B}"/>
 									<SegmentRef Name="TriggerA" ID="{985DD911-5A21-43C8-9E1C-6DD303EE163C}" WorkUnitID="{8FB02BFB-4922-4FFE-A8EA-B0EDBE68DD05}"/>
 								</MusicStinger>
 							</StingerList>
@@ -350,7 +350,7 @@
 									<PropertyList>
 										<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
 									</PropertyList>
-									<TriggerRef Name="EnemyKill" ID="{C22A6D3D-283D-4493-9C51-F59BEA3953A6}" WorkUnitID="{A710FBE1-D007-4044-86B5-35A838ED874B}"/>
+									<TriggerRef Name="FindEgg" ID="{C22A6D3D-283D-4493-9C51-F59BEA3953A6}" WorkUnitID="{A710FBE1-D007-4044-86B5-35A838ED874B}"/>
 									<SegmentRef Name="TriggerE" ID="{2EA53CCB-464D-41ED-B79C-A36E39261CA8}" WorkUnitID="{8FB02BFB-4922-4FFE-A8EA-B0EDBE68DD05}"/>
 								</MusicStinger>
 							</StingerList>
@@ -425,7 +425,7 @@
 									<PropertyList>
 										<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
 									</PropertyList>
-									<TriggerRef Name="EnemyKill" ID="{C22A6D3D-283D-4493-9C51-F59BEA3953A6}" WorkUnitID="{A710FBE1-D007-4044-86B5-35A838ED874B}"/>
+									<TriggerRef Name="FindEgg" ID="{C22A6D3D-283D-4493-9C51-F59BEA3953A6}" WorkUnitID="{A710FBE1-D007-4044-86B5-35A838ED874B}"/>
 									<SegmentRef Name="TriggerE" ID="{2EA53CCB-464D-41ED-B79C-A36E39261CA8}" WorkUnitID="{8FB02BFB-4922-4FFE-A8EA-B0EDBE68DD05}"/>
 								</MusicStinger>
 							</StingerList>
@@ -500,7 +500,7 @@
 									<PropertyList>
 										<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
 									</PropertyList>
-									<TriggerRef Name="EnemyKill" ID="{C22A6D3D-283D-4493-9C51-F59BEA3953A6}" WorkUnitID="{A710FBE1-D007-4044-86B5-35A838ED874B}"/>
+									<TriggerRef Name="FindEgg" ID="{C22A6D3D-283D-4493-9C51-F59BEA3953A6}" WorkUnitID="{A710FBE1-D007-4044-86B5-35A838ED874B}"/>
 									<SegmentRef Name="TriggerE" ID="{2EA53CCB-464D-41ED-B79C-A36E39261CA8}" WorkUnitID="{8FB02BFB-4922-4FFE-A8EA-B0EDBE68DD05}"/>
 								</MusicStinger>
 							</StingerList>
@@ -615,18 +615,13 @@
 						<MusicSegment Name="TriggerA" ID="{985DD911-5A21-43C8-9E1C-6DD303EE163C}" ShortID="753773426">
 							<PropertyList>
 								<Property Name="Tempo" Type="Real64" Value="96"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-8</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+									<ObjectRef Name="Music" ID="{7FADA3D8-9C37-4A92-8C1A-CA6FCB11494A}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -761,18 +756,13 @@
 						<MusicSegment Name="TriggerE" ID="{2EA53CCB-464D-41ED-B79C-A36E39261CA8}" ShortID="813477430">
 							<PropertyList>
 								<Property Name="Tempo" Type="Real64" Value="96"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-9</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+									<ObjectRef Name="Music" ID="{7FADA3D8-9C37-4A92-8C1A-CA6FCB11494A}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
