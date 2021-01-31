@@ -11642,7 +11642,7 @@
 						<PlatformCurve Platform="Linked" EnableCurve="false">
 							<Curve Name="" ID="{790DC7A4-06BA-4115-98E9-D02239ED8A4B}">
 								<PropertyList>
-									<Property Name="Flags" Type="int32" Value="1"/>
+									<Property Name="Flags" Type="int32" Value="True"/>
 								</PropertyList>
 								<PointList>
 									<Point>
