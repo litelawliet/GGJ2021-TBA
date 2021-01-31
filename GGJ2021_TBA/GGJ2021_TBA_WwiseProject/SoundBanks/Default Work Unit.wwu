@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B210A344-3FB6-4535-836D-D1CDB34D5C09}" SchemaVersion="97">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{B210A344-3FB6-4535-836D-D1CDB34D5C09}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B210A344-3FB6-4535-836D-D1CDB34D5C09}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SFX" ID="{28483DF0-E612-470A-BE0E-BFBC1A14CEA8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="TreeLoop_Stop" ID="{0F874F93-2D84-40C4-BE1A-5CC005421692}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerSlowTime_Start" ID="{9E5BCC36-2CAB-4118-B6D3-55E1412953A1}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TreeLoop_Start" ID="{6D0BB4BD-2073-4123-AC89-5BC041B40E90}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="WaterStreamLoop_Start" ID="{0AC0EC56-0640-4206-863C-4782C2E002D4}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GrappleHit" ID="{CFA242BD-2B31-425E-B835-966C5EC1708A}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerAttack" ID="{44685DBF-ADAA-426E-9BDB-18FE1B2C2B79}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambiance_Stop" ID="{C2FF1721-0DBD-4282-B352-7738617E6BF5}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerJump" ID="{46A61E7A-3F22-4403-9D3C-10DD3A5796D8}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EnemyIdle_Start" ID="{9B5BB09B-3732-44C2-A537-B1CB72717252}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EnemyDie" ID="{67E90992-5D16-4640-A4A4-6036673728F7}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerSlowTime_Stop" ID="{56F69015-1339-4642-8210-36697F8BFB51}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerFootsteps" ID="{418188A2-A636-467C-9772-42A88DB32710}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EnemyScream" ID="{1F6C1561-051F-4696-BEDA-E7D51A707E44}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerLand" ID="{B343B041-63DB-46C0-843F-C01415139880}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="WeaponThrowHit" ID="{A1F40CBA-1173-47F9-934F-9EC22EA10AA8}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambiance_Start" ID="{BD6E64F1-2899-488F-970B-5A10BD8BC5BE}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerWeaponThrow" ID="{89E4A163-F9C0-492C-9BC2-AA6B5AC5F9AB}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="WaterStreamLoop_Stop" ID="{59C03CD7-8C32-498B-9EF6-5EDD71F07D7E}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EnemyIdle_Stop" ID="{4433E684-26E7-4A07-AD62-62B7B2FA7C7A}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerGrappleShoot" ID="{14C83F01-A376-4DA6-A790-A9F993B3D196}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerHit" ID="{B799B990-2E90-4E43-BEF5-5DAC0918DA09}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{6BDDDBDD-A3A5-43E1-9C8D-EC27C8585B21}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MainMusic_Stop" ID="{7B0739CE-E162-4117-AA39-6AE2D6D33F44}" WorkUnitID="{E9412A87-EC69-4988-9505-A324478FC53A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainMusic_Start" ID="{2EDB1644-2FA6-4B95-98E3-74BF4D64072F}" WorkUnitID="{E9412A87-EC69-4988-9505-A324478FC53A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

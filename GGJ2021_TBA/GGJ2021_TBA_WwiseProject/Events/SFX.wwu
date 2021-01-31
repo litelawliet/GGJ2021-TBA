@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" SchemaVersion="97" RootDocumentID="{1F62902A-65FC-4FBC-B50D-497DDEC0578D}">
+	<Events>
+		<WorkUnit Name="SFX" ID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" OwnerID="{1F62902A-65FC-4FBC-B50D-497DDEC0578D}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Ambiance" ID="{4F7ABAC5-3AF9-4FF5-8489-96C59EC330B2}" ShortID="589416439">
+					<ChildrenList>
+						<Event Name="Ambiance_Start" ID="{BD6E64F1-2899-488F-970B-5A10BD8BC5BE}">
+							<ChildrenList>
+								<Action Name="" ID="{D104A322-1A21-406F-A696-675C53D3046D}" ShortID="1037606083">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance" ID="{FCFEECC9-0217-4AEC-B236-B892B17E2D98}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambiance_Stop" ID="{C2FF1721-0DBD-4282-B352-7738617E6BF5}">
+							<ChildrenList>
+								<Action Name="" ID="{1D62128E-3DF4-4DDB-A11F-48C427010D80}" ShortID="247795898">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance" ID="{FCFEECC9-0217-4AEC-B236-B892B17E2D98}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{91C1B36F-CEAD-478F-8A10-207A6A064C9F}" ShortID="275888722">
+					<ChildrenList>
+						<Event Name="PlayerFootsteps" ID="{418188A2-A636-467C-9772-42A88DB32710}">
+							<ChildrenList>
+								<Action Name="" ID="{DA2E4D4C-B0EC-48DF-8D7F-5A8F2F2F1285}" ShortID="578300278">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{487AFABD-4DB2-48FA-AC49-0F061788BF76}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerWeaponThrow" ID="{89E4A163-F9C0-492C-9BC2-AA6B5AC5F9AB}">
+							<ChildrenList>
+								<Action Name="" ID="{DE363073-BF72-4C84-B39F-43A7418144CC}" ShortID="234851450">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Throw" ID="{AF2B35BB-7A8B-4E32-A8F4-FA32E315FE22}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B1C950AA-18B0-4B53-9EEC-0E1C5F407298}" ShortID="996725650">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DC96B801-443D-4F39-9FE9-E35965D69D4F}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ThrowSwoosh" ID="{78C98B1A-A880-4ED8-A450-420A3F58881E}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerGrappleShoot" ID="{14C83F01-A376-4DA6-A790-A9F993B3D196}">
+							<ChildrenList>
+								<Action Name="" ID="{187EA08C-A2CA-4574-9C16-DF0197347C64}" ShortID="920192705">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GrappleShoot" ID="{2C5ACCDC-0C72-4D45-A597-317619F21E71}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerAttack" ID="{44685DBF-ADAA-426E-9BDB-18FE1B2C2B79}">
+							<ChildrenList>
+								<Action Name="" ID="{AF91BABF-2CD4-454B-A8C9-2EB51A9ED145}" ShortID="105384764">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Attack" ID="{6E27777F-CA58-4314-939A-9F076F0B263B}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerHit" ID="{B799B990-2E90-4E43-BEF5-5DAC0918DA09}">
+							<ChildrenList>
+								<Action Name="" ID="{AD2951A8-7FC2-4C74-BAEC-DD782316BD2A}" ShortID="508825887">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hit" ID="{C1FE1DC8-9CB0-46DD-981A-46C0BE58E206}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerSlowTime_Start" ID="{9E5BCC36-2CAB-4118-B6D3-55E1412953A1}">
+							<ChildrenList>
+								<Action Name="" ID="{0CD45ECC-05A9-4D08-BD83-431F19E88B77}" ShortID="466526775">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Lowpass" Type="int16" Value="50"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance" ID="{AD8F0092-1B85-4BDA-8921-2D1C98D0DC68}" WorkUnitID="{7E7E8BFB-5EFE-4EBF-BCF6-EBD6C6BDE792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AFE6643C-C27B-4589-8370-4E34E3783B3A}" ShortID="83405221">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Lowpass" Type="int16" Value="50"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Environment" ID="{9E15E6AA-D0E6-41DC-9A34-F22C84A29787}" WorkUnitID="{7E7E8BFB-5EFE-4EBF-BCF6-EBD6C6BDE792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerSlowTime_Stop" ID="{56F69015-1339-4642-8210-36697F8BFB51}">
+							<ChildrenList>
+								<Action Name="" ID="{BD9DCCB8-4AD1-491B-A5AC-B5A26268F527}" ShortID="473227485">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="27"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Environment" ID="{9E15E6AA-D0E6-41DC-9A34-F22C84A29787}" WorkUnitID="{7E7E8BFB-5EFE-4EBF-BCF6-EBD6C6BDE792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EA4F7509-B311-4018-BA23-FDAF798363B0}" ShortID="10793625">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="27"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance" ID="{AD8F0092-1B85-4BDA-8921-2D1C98D0DC68}" WorkUnitID="{7E7E8BFB-5EFE-4EBF-BCF6-EBD6C6BDE792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerJump" ID="{46A61E7A-3F22-4403-9D3C-10DD3A5796D8}">
+							<ChildrenList>
+								<Action Name="" ID="{49BB6823-0108-4579-AECE-F0ABB30DD614}" ShortID="153942949">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jump" ID="{661A01D5-89CA-4EE0-A8D5-CE1157655AE4}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerLand" ID="{B343B041-63DB-46C0-843F-C01415139880}">
+							<ChildrenList>
+								<Action Name="" ID="{0C986254-1746-4ADC-914C-FF7606178329}" ShortID="377054908">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Land" ID="{9F484C78-7D68-43CB-AD14-7BA7AF52C16E}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Environment" ID="{D93BA8A7-4D19-4717-A595-9690F0D3C144}" ShortID="1489429">
+					<ChildrenList>
+						<Folder Name="WaterStream" ID="{1E829602-28F1-46D9-B3CC-A351049B5228}" ShortID="658978026">
+							<ChildrenList>
+								<Event Name="WaterStreamLoop_Start" ID="{0AC0EC56-0640-4206-863C-4782C2E002D4}">
+									<ChildrenList>
+										<Action Name="" ID="{260EE9F3-E212-46E8-BBE5-DE8A306BDC3A}" ShortID="270753674">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Stream" ID="{0CFD8112-50FB-431C-B817-C2A9BF3C04C7}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="WaterStreamLoop_Stop" ID="{59C03CD7-8C32-498B-9EF6-5EDD71F07D7E}">
+									<ChildrenList>
+										<Action Name="" ID="{A79D2A52-A831-4F99-ACF2-B599C58A1035}" ShortID="862545170">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Stream" ID="{0CFD8112-50FB-431C-B817-C2A9BF3C04C7}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Weapon" ID="{B920BC28-39E2-42C8-A02B-9B3D3968BD48}" ShortID="424933259">
+							<ChildrenList>
+								<Event Name="WeaponThrowHit" ID="{A1F40CBA-1173-47F9-934F-9EC22EA10AA8}">
+									<ChildrenList>
+										<Action Name="" ID="{AD7A3E12-A10F-4626-88E6-7D8478C63FB9}" ShortID="434348919">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ThrowImpact" ID="{5FF7BA61-7F04-48C5-8C63-8E75EEC2CAD1}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{6DD03375-4A6A-4C81-ACDD-D025096EB746}" ShortID="522973085">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ThrowHitRecoil" ID="{0335F701-EEB2-4A71-A55E-1C2C841D986D}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Trees" ID="{F323F770-294D-4400-8B7E-F2102CE481B0}" ShortID="465406701">
+							<ChildrenList>
+								<Event Name="TreeLoop_Start" ID="{6D0BB4BD-2073-4123-AC89-5BC041B40E90}">
+									<ChildrenList>
+										<Action Name="" ID="{37AE3751-8CDA-4BC7-9AEB-357360E00F7A}" ShortID="897273727">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FoliageClose" ID="{1CFE5ED5-90E9-430B-9504-3B956F51C950}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TreeLoop_Stop" ID="{0F874F93-2D84-40C4-BE1A-5CC005421692}">
+									<ChildrenList>
+										<Action Name="" ID="{79D5E33D-5D27-4D87-A207-F6733FFC96D6}" ShortID="538847961">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FoliageClose" ID="{1CFE5ED5-90E9-430B-9504-3B956F51C950}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Grapple" ID="{91A302C4-5FE6-42D0-98F7-4EBF4A3ECC4D}" ShortID="956034163">
+							<ChildrenList>
+								<Event Name="GrappleHit" ID="{CFA242BD-2B31-425E-B835-966C5EC1708A}">
+									<ChildrenList>
+										<Action Name="" ID="{E5EABDF0-8E6C-4622-8F6C-96765F427A90}" ShortID="935040284">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="GrappleHit" ID="{39B81C00-1137-4BC7-9F06-632DA77B9411}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Enemy" ID="{CC4A0C1C-0535-41B8-B9BC-1C59B443C011}" ShortID="955543757">
+							<ChildrenList>
+								<Event Name="EnemyDie" ID="{67E90992-5D16-4640-A4A4-6036673728F7}">
+									<ChildrenList>
+										<Action Name="" ID="{8299583A-E6C8-4D1B-A68F-9EF18AB1CD42}" ShortID="730682162">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Die" ID="{939E6BE9-3B30-4850-88E0-23208F3638C9}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{35396166-C31D-4527-903A-BDEA169B03A6}" ShortID="832160738">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DieWind" ID="{13819147-ECD4-4A59-9A65-4C1C752A5ED8}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{0422FD86-AAF3-4F60-99DA-0874B68F50D5}" ShortID="101262064">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="35"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="EnemyKill" ID="{C22A6D3D-283D-4493-9C51-F59BEA3953A6}" WorkUnitID="{A710FBE1-D007-4044-86B5-35A838ED874B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="EnemyIdle_Start" ID="{9B5BB09B-3732-44C2-A537-B1CB72717252}">
+									<ChildrenList>
+										<Action Name="" ID="{3D2755E1-557B-45C4-8BE4-803731290E3A}" ShortID="122260637">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Idle" ID="{8B582916-12B1-4215-B97B-23C42D3D7F67}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="EnemyIdle_Stop" ID="{4433E684-26E7-4A07-AD62-62B7B2FA7C7A}">
+									<ChildrenList>
+										<Action Name="" ID="{5332C75D-3EA9-4076-B74D-B3367BE79A31}" ShortID="20389359">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Idle" ID="{8B582916-12B1-4215-B97B-23C42D3D7F67}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="EnemyScream" ID="{1F6C1561-051F-4696-BEDA-E7D51A707E44}">
+									<ChildrenList>
+										<Action Name="" ID="{F6293690-80D8-4740-9B49-051C72BAD317}" ShortID="916337849">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Scream" ID="{1FE1DD1E-9D51-4ED7-87B0-A65517AB2F37}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
