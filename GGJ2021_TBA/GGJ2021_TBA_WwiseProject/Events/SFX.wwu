@@ -116,7 +116,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Ambiance" ID="{AD8F0092-1B85-4BDA-8921-2D1C98D0DC68}" WorkUnitID="{7E7E8BFB-5EFE-4EBF-BCF6-EBD6C6BDE792}"/>
+											<ObjectRef Name="Ambiance" ID="{49A2FC4C-69AA-47C1-8754-13E7AA7F6B76}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -128,7 +128,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Environment" ID="{9E15E6AA-D0E6-41DC-9A34-F22C84A29787}" WorkUnitID="{7E7E8BFB-5EFE-4EBF-BCF6-EBD6C6BDE792}"/>
+											<ObjectRef Name="Environment" ID="{565610AE-D14D-4547-8E2E-E84823C61C20}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -143,7 +143,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Environment" ID="{9E15E6AA-D0E6-41DC-9A34-F22C84A29787}" WorkUnitID="{7E7E8BFB-5EFE-4EBF-BCF6-EBD6C6BDE792}"/>
+											<ObjectRef Name="Environment" ID="{565610AE-D14D-4547-8E2E-E84823C61C20}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -154,7 +154,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Ambiance" ID="{AD8F0092-1B85-4BDA-8921-2D1C98D0DC68}" WorkUnitID="{7E7E8BFB-5EFE-4EBF-BCF6-EBD6C6BDE792}"/>
+											<ObjectRef Name="Ambiance" ID="{49A2FC4C-69AA-47C1-8754-13E7AA7F6B76}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
