@@ -3785,8 +3785,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="PlayerJumpWhoosh1" ID="{875FD4B2-5CD1-4A87-8005-1058C804B839}">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0.384801210826211"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.384"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>PlayerJumpWhoosh1.wav</AudioFile>
@@ -3811,8 +3811,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="PlayerJumpWhoosh2" ID="{D67C9982-0A09-4115-86F8-D96BE56E7A3F}">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0.0511203703703704"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.05112"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>PlayerJumpWhoosh2.wav</AudioFile>
@@ -3837,8 +3837,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="PlayerJumpWhoosh3" ID="{B60BA713-8CDF-4BC8-9A73-A91DBAF031C2}">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0.0587884259259259"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.05879"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>PlayerJumpWhoosh3.wav</AudioFile>
@@ -3863,8 +3863,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="PlayerJumpWhoosh4" ID="{CBE81099-638E-4BC8-BE57-E0E701CAD314}">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0.0562324074074074"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.05623"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>PlayerJumpWhoosh4.wav</AudioFile>
