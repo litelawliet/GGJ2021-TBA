@@ -48,16 +48,9 @@
 						</Event>
 						<Event Name="PlayerWeaponThrow" ID="{89E4A163-F9C0-492C-9BC2-AA6B5AC5F9AB}">
 							<ChildrenList>
-								<Action Name="" ID="{DE363073-BF72-4C84-B39F-43A7418144CC}" ShortID="234851450">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Throw" ID="{AF2B35BB-7A8B-4E32-A8F4-FA32E315FE22}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{B1C950AA-18B0-4B53-9EEC-0E1C5F407298}" ShortID="996725650">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="0.2">
+										<Property Name="Delay" Type="Real64">
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{DC96B801-443D-4F39-9FE9-E35965D69D4F}"/>
@@ -182,6 +175,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="FindEgg" ID="{D384576A-E618-46C1-AB2F-E1375C9F16B7}">
+							<ChildrenList>
+								<Action Name="" ID="{3E7ADF09-357C-4F8F-B37D-09F0C4F8EA17}" ShortID="802467854">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FindEgg" ID="{869F7CA7-1BB9-4D61-B762-48BE98ABE821}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{D93BA8A7-4D19-4717-A595-9690F0D3C144}" ShortID="1489429">
@@ -298,16 +302,6 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="DieWind" ID="{13819147-ECD4-4A59-9A65-4C1C752A5ED8}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-										<Action Name="" ID="{0422FD86-AAF3-4F60-99DA-0874B68F50D5}" ShortID="101262064">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="35"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="EnemyKill" ID="{C22A6D3D-283D-4493-9C51-F59BEA3953A6}" WorkUnitID="{A710FBE1-D007-4044-86B5-35A838ED874B}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

@@ -3878,6 +3878,96 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FindEgg" ID="{869F7CA7-1BB9-4D61-B762-48BE98ABE821}" ShortID="599834571">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>17</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FindEgg1" ID="{94AD3453-C373-4286-80BA-5986659AAE4E}" ShortID="656766583">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FindEgg1" ID="{6406C75D-89D7-4BD5-93FF-89D16B9DA646}">
+											<Language>SFX</Language>
+											<AudioFile>FindEgg1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="142072443"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FindEgg1" ID="{6406C75D-89D7-4BD5-93FF-89D16B9DA646}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FindEgg2" ID="{4A0820E5-43CD-48D4-BD8A-F5EC551E4E33}" ShortID="774309780">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FindEgg2" ID="{D3CA3DA6-0EA5-4D71-9859-F9186DB4C255}">
+											<Language>SFX</Language>
+											<AudioFile>FindEgg2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="805928260"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FindEgg2" ID="{D3CA3DA6-0EA5-4D71-9859-F9186DB4C255}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FindEgg3" ID="{38C9FDC2-5787-458B-ACAE-7398DB567655}" ShortID="914214570">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FindEgg3" ID="{0029EAF2-2B32-4E3A-B85F-BB1876A56947}">
+											<Language>SFX</Language>
+											<AudioFile>FindEgg3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="663307940"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FindEgg3" ID="{0029EAF2-2B32-4E3A-B85F-BB1876A56947}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Environment" ID="{ABED681A-A6FA-4479-8DDC-DAD6000F8AB1}" ShortID="739034118">
@@ -5049,6 +5139,9 @@
 										<RandomSequenceContainer Name="ThrowSwoosh" ID="{78C98B1A-A880-4ED8-A450-420A3F58881E}" ShortID="76501053">
 											<PropertyList>
 												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>630</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{5BE82752-AA92-4BC1-8588-E7FF2B716F9B}">
@@ -5063,7 +5156,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-8</Value>
+														<Value>-3</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
