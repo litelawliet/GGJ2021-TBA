@@ -338,12 +338,41 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="EnemyScream" ID="{1F6C1561-051F-4696-BEDA-E7D51A707E44}">
+								<Event Name="EnemyFire" ID="{46D30F49-D7F8-478B-BEA5-D421AE01547C}">
 									<ChildrenList>
-										<Action Name="" ID="{F6293690-80D8-4740-9B49-051C72BAD317}" ShortID="916337849">
+										<Action Name="" ID="{ECBC74B0-73AE-4858-97EA-25DB0EB5BDDC}" ShortID="6104661">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Scream" ID="{1FE1DD1E-9D51-4ED7-87B0-A65517AB2F37}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+													<ObjectRef Name="FireProjectile" ID="{3C190AE1-EFC7-4425-9C2A-FA8C17F48EF8}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ProjectileLoop_Start" ID="{A1612DDA-7584-4FAF-955C-170785163A7F}">
+									<ChildrenList>
+										<Action Name="" ID="{ABB36A98-5765-42A1-B801-5E3BBCDECF83}" ShortID="237890294">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="EnemyProjectile" ID="{193DC903-1C11-408B-8145-E03396091441}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ProjectileLoop_End" ID="{F29FCF20-AA44-4364-BFE2-B7F7FEBF34D7}">
+									<ChildrenList>
+										<Action Name="" ID="{A595C493-BA2C-424A-960B-FD6D0071FCAB}" ShortID="675720267">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="EnemyProjectile" ID="{193DC903-1C11-408B-8145-E03396091441}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
