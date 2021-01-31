@@ -22,7 +22,7 @@
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-9</Value>
 									</ValueList>
 								</Property>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>

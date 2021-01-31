@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="1752732817">
+		<SoundBank Id="393239870" Language="SFX" Hash="158593114">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -683,12 +683,12 @@
 				<Trigger Id="2092003595" Name="EnemyKill" ObjectPath="\Triggers\Default Work Unit\Music\EnemyKill"/>
 			</Triggers>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2123306868">
+		<SoundBank Id="1355168291" Language="SFX" Hash="463758621">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="2794569058">
+		<SoundBank Id="3991942870" Language="SFX" Hash="3799734550">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
