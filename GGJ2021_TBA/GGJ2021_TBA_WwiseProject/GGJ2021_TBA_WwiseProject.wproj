@@ -11603,7 +11603,7 @@
 				<ObsOccCurves>
 					<Comment></Comment>
 					<ObsOccCurve CurveXType="Obstruction" CurveYType="Volume">
-						<PlatformCurve Platform="Linked" EnableCurve="true">
+						<PlatformCurve Platform="Linked" EnableCurve="false">
 							<Curve Name="" ID="{1D98AA39-3024-439D-94FC-3E681CF4BD5D}">
 								<PointList>
 									<Point>
@@ -11613,7 +11613,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>-200</YPos>
+										<YPos>-6.92308</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -11621,11 +11621,8 @@
 						</PlatformCurve>
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Obstruction" CurveYType="LPF">
-						<PlatformCurve Platform="Linked" EnableCurve="true">
+						<PlatformCurve Platform="Linked" EnableCurve="false">
 							<Curve Name="" ID="{969B30F2-5312-45BC-B61F-40C942D61B33}">
-								<PropertyList>
-									<Property Name="Flags" Type="int32" Value="True"/>
-								</PropertyList>
 								<PointList>
 									<Point>
 										<XPos>0</XPos>
@@ -11663,7 +11660,7 @@
 						</PlatformCurve>
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Occlusion" CurveYType="Volume">
-						<PlatformCurve Platform="Linked" EnableCurve="true">
+						<PlatformCurve Platform="Linked" EnableCurve="false">
 							<Curve Name="" ID="{9976F8FE-BDE3-459B-8506-1B5C1A7E90B8}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="3"/>
@@ -11684,7 +11681,7 @@
 						</PlatformCurve>
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Occlusion" CurveYType="LPF">
-						<PlatformCurve Platform="Linked" EnableCurve="true">
+						<PlatformCurve Platform="Linked" EnableCurve="false">
 							<Curve Name="" ID="{B8836740-B486-4163-8A49-6B18A62594D7}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1"/>
