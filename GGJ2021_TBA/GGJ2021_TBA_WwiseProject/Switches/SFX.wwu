@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0721F533-9433-4DE5-B111-7A3BBDEF325C}" SchemaVersion="97" RootDocumentID="{18EEBF6D-280B-4B10-AAC8-2A2A47E08E7A}">
+	<Switches>
+		<WorkUnit Name="SFX" ID="{0721F533-9433-4DE5-B111-7A3BBDEF325C}" OwnerID="{18EEBF6D-280B-4B10-AAC8-2A2A47E08E7A}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="PlayerSpeed" ID="{4DCD760E-1570-47C3-8285-074723FC0DB3}">
+					<ChildrenList>
+						<Switch Name="Run" ID="{CB0EFCC9-7ECA-4940-B02B-CEB581453551}"/>
+						<Switch Name="Walk" ID="{9044CD28-CD34-438A-A281-27014D6208EE}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Terrain" ID="{D1A0171C-7E69-40FB-99A4-F24091208CE9}">
+					<ChildrenList>
+						<Switch Name="Grass" ID="{8AFF8771-D8A1-4859-8F98-E6CD66F0E4A0}"/>
+						<Switch Name="Sand" ID="{2B425D82-656E-480F-9D8F-5600A1769FCF}"/>
+						<Switch Name="Rock" ID="{DEF3071C-1E23-4A65-BAD2-920F2691AD0F}"/>
+						<Switch Name="Wood" ID="{79ADF0D9-C798-48A1-9E63-E2BC848677E0}"/>
+						<Switch Name="Mud" ID="{77E0D293-122C-4850-AD4A-9319D9A7D7BA}"/>
+						<Switch Name="Forest" ID="{25290BF0-B8D2-4678-A17B-A3CDEFB16988}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

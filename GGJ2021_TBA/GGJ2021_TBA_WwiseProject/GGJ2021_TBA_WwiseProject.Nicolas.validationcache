@@ -1,29 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="97">
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1611767403" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1611767402" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1611767402" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\States\Default Work Unit.wwu" DateLow="1611767403" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1611767402" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1611767402" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Queries\Factory Queries.wwu" DateLow="1609897917" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1611767402" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1609897917" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1611767403" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1611767403" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1611767402" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1611767403" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1611767403" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\GGJ2021_TBA_WwiseProject.wproj" DateLow="1611767402" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1611767402" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Events\Default Work Unit.wwu" DateLow="1611767403" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Effects\Factory Effects.wwu" DateLow="1609897917" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1611767402" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1611767402" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1609897917" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1611767403" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1611767403" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1611767403" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1611767403" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1611767403" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1611775676" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Triggers\Music.wwu" DateLow="1612066104" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1612066227" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Switches\SFX.wwu" DateLow="1612066104" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1612066227" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\States\Default Work Unit.wwu" DateLow="1611775676" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1612067034" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1612067034" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Queries\Factory Queries.wwu" DateLow="1611775676" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1611775676" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1611775676" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1611775676" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1611775676" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1611775676" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1612067034" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Interactive Music Hierarchy\Music.wwu" DateLow="1612067034" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1612066227" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\GGJ2021_TBA_WwiseProject.wproj" DateLow="1612067034" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\GGJ2021_TBA_WwiseProject.Nicolas.wsettings" DateLow="1612067069" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1611775676" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Events\SFX.wwu" DateLow="1612067034" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Events\Music.wwu" DateLow="1612066100" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Events\Default Work Unit.wwu" DateLow="1612066227" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Effects\Factory Effects.wwu" DateLow="1611775676" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1612066227" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1611775676" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1611775676" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1611775676" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1612067034" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1611775676" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1611775676" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Actor-Mixer Hierarchy\SFX.wwu" DateLow="1612067034" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1612066226" DateHigh="0"/>
 </ValidationCache>

@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{21BD863C-4C45-4B75-AE13-0E21C209C3BF}" SchemaVersion="97">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{21BD863C-4C45-4B75-AE13-0E21C209C3BF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{21BD863C-4C45-4B75-AE13-0E21C209C3BF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Ambiance_Record" ID="{464AD2A7-29A3-4C08-85FA-524ACA873485}" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+					<PropertyList>
+						<Property Name="AuthoringFilename" Type="string" Value="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021_SFX\examples\Ambiance.wav"/>
+						<Property Name="LFE" Type="Real32" Value="-96"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="MusicRecord" ID="{2A3D064C-10B5-4C30-9002-5E7556800CE8}" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+					<PropertyList>
+						<Property Name="AuthoringFilename" Type="string" Value="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021_SFX\examples\MainMusic.wav"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="PlayerRecord" ID="{E676CF8D-787F-44D6-9173-5528725B49DC}" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>
