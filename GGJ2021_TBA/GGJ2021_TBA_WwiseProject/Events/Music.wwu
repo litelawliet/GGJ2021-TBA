@@ -6,6 +6,9 @@
 				<Event Name="MainMusic_Start" ID="{2EDB1644-2FA6-4B95-98E3-74BF4D64072F}">
 					<ChildrenList>
 						<Action Name="" ID="{CBED08F5-8EA9-4132-BB90-8E227F171AB6}" ShortID="495493830">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MainMusic" ID="{1A7336FF-87A4-46CD-9227-EB6767259A91}" WorkUnitID="{8FB02BFB-4922-4FFE-A8EA-B0EDBE68DD05}"/>
@@ -30,6 +33,35 @@
 					</ChildrenList>
 				</Event>
 				<Folder Name="Stingers" ID="{AB3676F3-742A-48D1-B18C-12F8012CF814}" ShortID="937004842"/>
+				<Event Name="MenuMusic_Start" ID="{75BB5382-0205-41F1-B402-C0036B5E00F5}">
+					<ChildrenList>
+						<Action Name="" ID="{52D5E312-FBE6-476F-8DAD-437CC51FBA03}" ShortID="53582617">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenu" ID="{8CEBD1D4-A2F2-4EF6-9DA9-C0304B995ADE}" WorkUnitID="{8FB02BFB-4922-4FFE-A8EA-B0EDBE68DD05}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MenuMusic_Stop" ID="{8891F2F4-8BB9-494E-9192-6AA206D58749}">
+					<ChildrenList>
+						<Action Name="" ID="{89091B03-AB80-428D-8CF2-0E324EC4D379}" ShortID="394760106">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenu" ID="{8CEBD1D4-A2F2-4EF6-9DA9-C0304B995ADE}" WorkUnitID="{8FB02BFB-4922-4FFE-A8EA-B0EDBE68DD05}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
