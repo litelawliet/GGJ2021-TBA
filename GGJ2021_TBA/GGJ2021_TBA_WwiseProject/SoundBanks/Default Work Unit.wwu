@@ -12,13 +12,15 @@
 						<ObjectRef Name="GrappleHit" ID="{CFA242BD-2B31-425E-B835-966C5EC1708A}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerAttack" ID="{44685DBF-ADAA-426E-9BDB-18FE1B2C2B79}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambiance_Stop" ID="{C2FF1721-0DBD-4282-B352-7738617E6BF5}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ProjectileLoop_End" ID="{F29FCF20-AA44-4364-BFE2-B7F7FEBF34D7}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerJump" ID="{46A61E7A-3F22-4403-9D3C-10DD3A5796D8}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="EnemyIdle_Start" ID="{9B5BB09B-3732-44C2-A537-B1CB72717252}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="EnemyDie" ID="{67E90992-5D16-4640-A4A4-6036673728F7}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerSlowTime_Stop" ID="{56F69015-1339-4642-8210-36697F8BFB51}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerFootsteps" ID="{418188A2-A636-467C-9772-42A88DB32710}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="EnemyScream" ID="{1F6C1561-051F-4696-BEDA-E7D51A707E44}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerLand" ID="{B343B041-63DB-46C0-843F-C01415139880}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FindEgg" ID="{D384576A-E618-46C1-AB2F-E1375C9F16B7}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EnemyFire" ID="{46D30F49-D7F8-478B-BEA5-D421AE01547C}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="WeaponThrowHit" ID="{A1F40CBA-1173-47F9-934F-9EC22EA10AA8}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambiance_Start" ID="{BD6E64F1-2899-488F-970B-5A10BD8BC5BE}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerWeaponThrow" ID="{89E4A163-F9C0-492C-9BC2-AA6B5AC5F9AB}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
@@ -26,6 +28,7 @@
 						<ObjectRef Name="EnemyIdle_Stop" ID="{4433E684-26E7-4A07-AD62-62B7B2FA7C7A}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerGrappleShoot" ID="{14C83F01-A376-4DA6-A790-A9F993B3D196}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerHit" ID="{B799B990-2E90-4E43-BEF5-5DAC0918DA09}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ProjectileLoop_Start" ID="{A1612DDA-7584-4FAF-955C-170785163A7F}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

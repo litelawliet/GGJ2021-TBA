@@ -1,14 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
 	383524824	MenuMusic_Start			\Default Work Unit\Music\MenuMusic_Start	
 	1115745636	MenuMusic_Stop			\Default Work Unit\Music\MenuMusic_Stop	
+	2756753979	FindEgg			\Default Work Unit\SFX\Player\FindEgg	
 	3439190578	MainMusic_Stop			\Default Work Unit\Music\MainMusic_Stop	
 	4088375194	MainMusic_Start			\Default Work Unit\Music\MainMusic_Start	
 
 Trigger	ID	Name			Wwise Object Path	Notes
-	2092003595	EnemyKill			\Default Work Unit\Music\EnemyKill	
+	2756753979	FindEgg			\Default Work Unit\Music\FindEgg	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	129070488	TriggerA	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\TriggerShamisen4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\TriggerA\TriggerA		624064
+	142072443	FindEgg1	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\FindEgg1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\FindEgg\FindEgg1		492172
 	142318509	TriggerHarpe1	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\TriggerHarpe1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\TriggerE\TriggerHarpe1		725804
 	366858165	TriggerHarpe1	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\TriggerShamisen1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\TriggerE\TriggerHarpe1		725804
 	476803043	TriggerA	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\TriggerHarpe4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\TriggerA\TriggerA		624064
@@ -16,10 +18,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	577851615	Intro_8M_P1B	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\Intro_8M_P1B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MainMusic\Intro_8M_P1B\Intro_8M_P1B		4920064
 	642892049	SectionGongs_8M_P0	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\SectionGongs_8M_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MainMusic\SectionGongs_8M_P1B\SectionGongs_8M_P0		4440064
 	657633154	SectionTaikosB_4M_P0	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\SectionTaikosB_4M_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MainMusic\SectionTaikosB_4M_P0\SectionTaikosB_4M_P0		2400064
+	663307940	FindEgg3	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\FindEgg3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\FindEgg\FindEgg3		484312
 	675636465	SectionHarpe_8M_P1B	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\SectionHarpe_8M_P1B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MainMusic\SectionHarpe_8M_P1B\SectionHarpe_8M_P1B		4440064
 	686425221	TriggerHarpe1	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\TriggerHarpe2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\TriggerE\TriggerHarpe1		624064
 	759257379	TriggerA	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\TriggerWoodBlocks1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\TriggerA\TriggerA		727232
 	761043197	SectionFlute_16M_P1B	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\SectionFlute_16M_P1B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MainMusic\SectionFlute_16M_P1B\SectionFlute_16M_P1B		8760064
+	805928260	FindEgg2	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\FindEgg2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\FindEgg\FindEgg2		471060
 	905852924	TriggerHarpe1	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\TriggerShamisen2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\TriggerE\TriggerHarpe1		624064
 	999516939	TriggerA	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\TriggerHarpe3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\TriggerA\TriggerA		744064
 	1029229075	TriggerA	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\TriggerShamisen3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\TriggerA\TriggerA		744064

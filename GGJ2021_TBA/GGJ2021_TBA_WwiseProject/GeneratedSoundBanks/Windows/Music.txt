@@ -5,7 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	4088375194	MainMusic_Start			\Default Work Unit\Music\MainMusic_Start	
 
 Trigger	ID	Name			Wwise Object Path	Notes
-	2092003595	EnemyKill			\Default Work Unit\Music\EnemyKill	
+	2756753979	FindEgg			\Default Work Unit\Music\FindEgg	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	129070488	TriggerA	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Windows\SFX\TriggerShamisen4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers\TriggerA\TriggerA		624064
