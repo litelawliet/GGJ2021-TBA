@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="2220915572">
+		<SoundBank Id="393239870" Language="SFX" Hash="3045009373">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -531,21 +531,17 @@
 				</Event>
 				<Event Id="4008126242" Name="PlayerJump" ObjectPath="\Events\Default Work Unit\SFX\Player\PlayerJump">
 					<IncludedMemoryFiles>
-						<File Id="272272747" Language="SFX">
-							<ShortName>PlayerJumpWhoosh2.wav</ShortName>
-							<Path>SFX\PlayerJumpWhoosh2_955829B8.wem</Path>
+						<File Id="787949449" Language="SFX">
+							<ShortName>PlayerJump2.wav</ShortName>
+							<Path>SFX\PlayerJump2_10C4C929.wem</Path>
 						</File>
-						<File Id="486422399" Language="SFX">
-							<ShortName>PlayerJumpWhoosh1.wav</ShortName>
-							<Path>SFX\PlayerJumpWhoosh1_65E8F6B1.wem</Path>
+						<File Id="909752455" Language="SFX">
+							<ShortName>PlayerJump3.wav</ShortName>
+							<Path>SFX\PlayerJump3_10C4C929.wem</Path>
 						</File>
-						<File Id="643744722" Language="SFX">
-							<ShortName>PlayerJumpWhoosh4.wav</ShortName>
-							<Path>SFX\PlayerJumpWhoosh4_E428FF86.wem</Path>
-						</File>
-						<File Id="730911619" Language="SFX">
-							<ShortName>PlayerJumpWhoosh3.wav</ShortName>
-							<Path>SFX\PlayerJumpWhoosh3_266A181A.wem</Path>
+						<File Id="921119638" Language="SFX">
+							<ShortName>PlayerJump1.wav</ShortName>
+							<Path>SFX\PlayerJump1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -678,12 +674,12 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="463758621">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3518160631">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="1227342255">
+		<SoundBank Id="3991942870" Language="SFX" Hash="4195210890">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>

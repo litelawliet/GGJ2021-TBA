@@ -50,10 +50,6 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="MainMusic_Start" ID="{2EDB1644-2FA6-4B95-98E3-74BF4D64072F}" WorkUnitID="{E9412A87-EC69-4988-9505-A324478FC53A}"/>
-							<Position X="2" Y="1"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Ambiance_Start" ID="{BD6E64F1-2899-488F-970B-5A10BD8BC5BE}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
 							<Position X="2" Y="2"/>
 						</Module>
@@ -82,7 +78,7 @@
 							<Position X="3" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="PlayerFootsteps" ID="{418188A2-A636-467C-9772-42A88DB32710}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
+							<ObjectRef Name="PlayerJump" ID="{46A61E7A-3F22-4403-9D3C-10DD3A5796D8}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
 							<Position X="3" Y="4"/>
 						</Module>
 					</ModuleList>
