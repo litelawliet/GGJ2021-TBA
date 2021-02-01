@@ -22,28 +22,32 @@
 							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="MainMusic_Start" ID="{2EDB1644-2FA6-4B95-98E3-74BF4D64072F}" WorkUnitID="{E9412A87-EC69-4988-9505-A324478FC53A}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="GrappleHit" ID="{CFA242BD-2B31-425E-B835-966C5EC1708A}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
-							<Position X="1" Y="1"/>
+							<ObjectRef Name="Ambiance_Start" ID="{BD6E64F1-2899-488F-970B-5A10BD8BC5BE}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
+							<Position X="0" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="PlayerGrappleShoot" ID="{14C83F01-A376-4DA6-A790-A9F993B3D196}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
-							<Position X="1" Y="2"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MainMusic_Start" ID="{2EDB1644-2FA6-4B95-98E3-74BF4D64072F}" WorkUnitID="{E9412A87-EC69-4988-9505-A324478FC53A}"/>
+							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="PlayerAttack" ID="{44685DBF-ADAA-426E-9BDB-18FE1B2C2B79}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
 							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="ProjectileLoop_Start" ID="{A1612DDA-7584-4FAF-955C-170785163A7F}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
-							<Position X="2" Y="0"/>
+							<ObjectRef Name="WaterStreamLoop_Start" ID="{0AC0EC56-0640-4206-863C-4782C2E002D4}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
+							<Position X="1" Y="4"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="MainMusic_Start" ID="{2EDB1644-2FA6-4B95-98E3-74BF4D64072F}" WorkUnitID="{E9412A87-EC69-4988-9505-A324478FC53A}"/>
-							<Position X="2" Y="1"/>
+							<ObjectRef Name="GrappleHit" ID="{CFA242BD-2B31-425E-B835-966C5EC1708A}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ProjectileLoop_Start" ID="{A1612DDA-7584-4FAF-955C-170785163A7F}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
+							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Ambiance_Start" ID="{BD6E64F1-2899-488F-970B-5A10BD8BC5BE}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
@@ -64,6 +68,18 @@
 						<Module>
 							<ObjectRef Name="FindEgg" ID="{D384576A-E618-46C1-AB2F-E1375C9F16B7}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
 							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayerWeaponThrow" ID="{89E4A163-F9C0-492C-9BC2-AA6B5AC5F9AB}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="WeaponThrowHit" ID="{A1F40CBA-1173-47F9-934F-9EC22EA10AA8}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayerJump" ID="{46A61E7A-3F22-4403-9D3C-10DD3A5796D8}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
+							<Position X="3" Y="4"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>

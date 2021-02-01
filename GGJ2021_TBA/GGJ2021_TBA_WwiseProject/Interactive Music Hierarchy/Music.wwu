@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<MusicPlaylistContainer Name="MainMusic" ID="{1A7336FF-87A4-46CD-9227-EB6767259A91}" ShortID="890752613">
 					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 						<Property Name="Tempo" Type="Real64" Value="96"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -898,6 +899,7 @@
 				</Folder>
 				<MusicPlaylistContainer Name="MainMenu" ID="{8CEBD1D4-A2F2-4EF6-9DA9-C0304B995ADE}" ShortID="742191743">
 					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>3</Value>

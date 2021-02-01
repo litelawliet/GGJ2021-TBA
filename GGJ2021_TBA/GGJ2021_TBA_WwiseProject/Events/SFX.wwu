@@ -195,6 +195,19 @@
 								<Event Name="WaterStreamLoop_Start" ID="{0AC0EC56-0640-4206-863C-4782C2E002D4}">
 									<ChildrenList>
 										<Action Name="" ID="{260EE9F3-E212-46E8-BBE5-DE8A306BDC3A}" ShortID="270753674">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9A2E2339-EAEA-4A03-BB9A-01EB0D119DB5}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Stream" ID="{0CFD8112-50FB-431C-B817-C2A9BF3C04C7}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>

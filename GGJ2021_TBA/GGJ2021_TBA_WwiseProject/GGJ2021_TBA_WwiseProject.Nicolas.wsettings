@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{A4365366-6CC6-4A87-829C-AB6756DEF971}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021_SFX\export\FinEgg\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021_SFX\export\Player\Jump\"/>
 				<Property Name="Event Action List\{0AC0EC56-0640-4206-863C-4782C2E002D4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0F874F93-2D84-40C4-BE1A-5CC005421692}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{14C83F01-A376-4DA6-A790-A9F993B3D196}\x64_Expand States" Type="string" Value=""/>
