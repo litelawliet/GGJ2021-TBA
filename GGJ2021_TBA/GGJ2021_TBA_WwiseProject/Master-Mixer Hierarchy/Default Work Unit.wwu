@@ -25,10 +25,14 @@
 										<Value>-9</Value>
 									</ValueList>
 								</Property>
-								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 							</PropertyList>
 							<PositioningInfo>
-								<Panner Name="" ID="{A997D11E-2268-4DF9-AE05-35F5C8934BC8}"/>
+								<Panner Name="" ID="{A997D11E-2268-4DF9-AE05-35F5C8934BC8}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="9.43689570931383E-15"/>
+										<Property Name="PanY" Type="Real64" Value="-3.44169137633799E-15"/>
+									</PropertyList>
+								</Panner>
 							</PositioningInfo>
 						</Bus>
 					</ChildrenList>
