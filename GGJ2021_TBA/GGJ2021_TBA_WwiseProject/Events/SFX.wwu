@@ -190,7 +190,7 @@
 				</Folder>
 				<Folder Name="Environment" ID="{D93BA8A7-4D19-4717-A595-9690F0D3C144}" ShortID="1489429">
 					<ChildrenList>
-						<Folder Name="WaterStream" ID="{1E829602-28F1-46D9-B3CC-A351049B5228}" ShortID="658978026">
+						<Folder Name="Water" ID="{1E829602-28F1-46D9-B3CC-A351049B5228}" ShortID="658978026">
 							<ChildrenList>
 								<Event Name="WaterStreamLoop_Start" ID="{0AC0EC56-0640-4206-863C-4782C2E002D4}">
 									<ChildrenList>
@@ -231,6 +231,35 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="LakeLoop_Start" ID="{5C362007-4702-4FE2-BFFE-FE5FEF804457}">
+									<ChildrenList>
+										<Action Name="" ID="{8EF09E45-490C-436C-9C84-55262E0437A6}" ShortID="236441112">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="LakeLoop" ID="{99DA3CB0-658C-4D00-99B8-51571E175BE8}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="LakeLoop_Stop" ID="{9EBD8BF0-9479-4B6C-B886-66BB3897749F}">
+									<ChildrenList>
+										<Action Name="" ID="{736E5280-41A9-486A-87FA-528A421C424C}" ShortID="466033641">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="LakeLoop" ID="{99DA3CB0-658C-4D00-99B8-51571E175BE8}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Weapon" ID="{B920BC28-39E2-42C8-A02B-9B3D3968BD48}" ShortID="424933259">
@@ -260,6 +289,9 @@
 								<Event Name="TreeLoop_Start" ID="{6D0BB4BD-2073-4123-AC89-5BC041B40E90}">
 									<ChildrenList>
 										<Action Name="" ID="{37AE3751-8CDA-4BC7-9AEB-357360E00F7A}" ShortID="897273727">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="FoliageClose" ID="{1CFE5ED5-90E9-430B-9504-3B956F51C950}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>

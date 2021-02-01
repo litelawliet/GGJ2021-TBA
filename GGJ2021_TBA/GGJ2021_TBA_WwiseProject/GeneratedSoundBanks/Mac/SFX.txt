@@ -5,7 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	778605252	Ambiance_Start			\Default Work Unit\SFX\Ambiance\Ambiance_Start	
 	794424115	EnemyDie			\Default Work Unit\SFX\Environment\Enemy\EnemyDie	
 	846198821	PlayerLand			\Default Work Unit\SFX\Player\PlayerLand	
-	1135007409	WaterStreamLoop_Start			\Default Work Unit\SFX\Environment\WaterStream\WaterStreamLoop_Start	
+	1135007409	WaterStreamLoop_Start			\Default Work Unit\SFX\Environment\Water\WaterStreamLoop_Start	
 	1192384307	PlayerSlowTime_Start			\Default Work Unit\SFX\Player\PlayerSlowTime_Start	
 	1218826761	GrappleHit			\Default Work Unit\SFX\Environment\Grapple\GrappleHit	
 	1676813030	TreeLoop_Start			\Default Work Unit\SFX\Environment\Trees\TreeLoop_Start	
@@ -17,12 +17,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	2446068219	EnemyFire			\Default Work Unit\SFX\Environment\Enemy\EnemyFire	
 	2496706759	ProjectileLoop_Start			\Default Work Unit\SFX\Environment\Enemy\ProjectileLoop_Start	
 	2756753979	FindEgg			\Default Work Unit\SFX\Player\FindEgg	
+	2765684535	LakeLoop_Start			\Default Work Unit\SFX\Environment\Water\LakeLoop_Start	
 	2892408348	EnemyIdle_Stop			\Default Work Unit\SFX\Environment\Enemy\EnemyIdle_Stop	
 	3045561464	Ambiance_Stop			\Default Work Unit\SFX\Ambiance\Ambiance_Stop	
 	3482172785	PlayerSlowTime_Stop			\Default Work Unit\SFX\Player\PlayerSlowTime_Stop	
 	3831688773	PlayerHit			\Default Work Unit\SFX\Player\PlayerHit	
+	3976490909	LakeLoop_Stop			\Default Work Unit\SFX\Environment\Water\LakeLoop_Stop	
 	4008126242	PlayerJump			\Default Work Unit\SFX\Player\PlayerJump	
-	4061945899	WaterStreamLoop_Stop			\Default Work Unit\SFX\Environment\WaterStream\WaterStreamLoop_Stop	
+	4061945899	WaterStreamLoop_Stop			\Default Work Unit\SFX\Environment\Water\WaterStreamLoop_Stop	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	354267144	Terrain			\Default Work Unit\SFX\Terrain	
@@ -106,6 +108,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	624531083	FootstepsRunForest06	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsRunForest06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Forest\RunForest\FootstepsRunForest06		87212
 	624898433	FootstepsRunMud2	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsRunMud2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Mud\RunMud\FootstepsRunMud2		82372
 	635163370	FootstepsGrassRun1	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsGrassRun1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Grass\RunGrass\FootstepsGrassRun1		66232
+	635317261	LakeLoop	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\Lake1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\LakeLoop		4042504
 	641006064	PlayerAttack2	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\Attack\PlayerAttack2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Attack\PlayerAttack2		51588
 	641317818	PlayerHurt3	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\PlayerHurt3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Hit\PlayerHurt3		83272
 	642768350	EnemyIdle3	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\EnemyIdle3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Enemy\Idle\EnemyIdle3		231000

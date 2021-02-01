@@ -5,8 +5,7 @@
 			<ChildrenList>
 				<ActorMixer Name="Ambiance" ID="{FB235280-5AC3-4608-9ADB-7FA18521D59D}" ShortID="933736077">
 					<PropertyList>
-						<Property Name="3DPosition" Type="int16" Value="2"/>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 						<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
@@ -5036,6 +5035,28 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="LakeLoop" ID="{99DA3CB0-658C-4D00-99B8-51571E175BE8}" ShortID="948019307">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lake1" ID="{5272755D-7FDA-4BC3-8D3B-7E635EABF82D}">
+									<Language>SFX</Language>
+									<AudioFile>Lake1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="635317261"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Lake1" ID="{5272755D-7FDA-4BC3-8D3B-7E635EABF82D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Weapon" ID="{D5622EE4-1CF2-4132-9196-E4CFAB849D6E}" ShortID="194254218">
@@ -5347,6 +5368,16 @@
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="New Actor-Mixer" ID="{076072F3-389D-4CFF-9FB5-555BDC00D12E}" ShortID="557003870">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+						</Reference>
+					</ReferenceList>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
