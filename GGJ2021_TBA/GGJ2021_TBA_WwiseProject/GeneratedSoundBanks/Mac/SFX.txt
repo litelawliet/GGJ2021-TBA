@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	304224554	PlayerWeaponThrow			\Default Work Unit\SFX\Player\PlayerWeaponThrow	
+	348961917	RetrieveWeapon			\Default Work Unit\SFX\Player\RetrieveWeapon	
 	365012518	TreeLoop_Stop			\Default Work Unit\SFX\Environment\Trees\TreeLoop_Stop	
 	546269234	WeaponThrowHit			\Default Work Unit\SFX\Environment\Weapon\WeaponThrowHit	
 	778605252	Ambiance_Start			\Default Work Unit\SFX\Ambiance\Ambiance_Start	
@@ -7,7 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	846198821	PlayerLand			\Default Work Unit\SFX\Player\PlayerLand	
 	1135007409	WaterStreamLoop_Start			\Default Work Unit\SFX\Environment\Water\WaterStreamLoop_Start	
 	1192384307	PlayerSlowTime_Start			\Default Work Unit\SFX\Player\PlayerSlowTime_Start	
-	1218826761	GrappleHit			\Default Work Unit\SFX\Environment\Grapple\GrappleHit	
+	1218826761	GrappleHit			\Default Work Unit\SFX\Player\GrappleHit	
 	1676813030	TreeLoop_Start			\Default Work Unit\SFX\Environment\Trees\TreeLoop_Start	
 	1681012287	PlayerFootsteps			\Default Work Unit\SFX\Player\PlayerFootsteps	
 	1719091540	ProjectileLoop_End			\Default Work Unit\SFX\Environment\Enemy\ProjectileLoop_End	
@@ -51,6 +52,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	19835226	EnemyIdle2	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\EnemyIdle2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Enemy\Idle\EnemyIdle2		161700
 	20022400	FootstepsRunForest04	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsRunForest04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Forest\RunForest\FootstepsRunForest04		146888
+	23041734	RetrieveWeapon1	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\RetrieveWeapon1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\RetrieveWeapon\RetrieveWeapon1		175596
 	37765110	FootstepsGrassWalk5	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsGrassWalk5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Grass\WalkGrass\FootstepsGrassWalk5		55988
 	38183463	PlayerLand1	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\PlayerLand1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Land\PlayerLand1		95320
 	38907752	EnemyDie6	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\EnemyDie6_1C5B3D48.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Enemy\Die\EnemyDie6		673856
@@ -80,7 +82,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	286555052	BirdsA3	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\BirdsA3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambiance\Ambiance\Birds\BirdsA\BirdsA3		890640
 	296382224	FootstepsGrassRun3	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsGrassRun3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Grass\RunGrass\FootstepsGrassRun3		70676
 	315883604	FootstepsGrassRun4	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsGrassRun4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Grass\RunGrass\FootstepsGrassRun4		65244
-	336728472	FootstepsWalkForest09	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsWalkForest09_92AA95BD.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Forest\WalkForest\FootstepsWalkForest09		55168
+	336728472	FootstepsWalkForest09	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsWalkForest09_6D30A5F7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Forest\WalkForest\FootstepsWalkForest09		55168
 	364786147	FootstepsGrassWalk6	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsGrassWalk6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Grass\WalkGrass\FootstepsGrassWalk6		76544
 	371923028	SmallStreamLoop2	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\SmallStreamLoop2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Stream\SmallStreamLoop2		1292560
 	389454894	SmallStreamLoop1	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\SmallStreamLoop1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Stream\SmallStreamLoop1		1288832
@@ -113,7 +115,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	642768350	EnemyIdle3	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\EnemyIdle3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Enemy\Idle\EnemyIdle3		231000
 	643517586	BambooLeavesLoop1	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\BambooLeavesLoop1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambiance\Ambiance\BambooLeaves\BambooLeavesLoop1		960064
 	648274301	FootstepsRunForest05	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsRunForest05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Forest\RunForest\FootstepsRunForest05		104776
-	648916904	FootstepsWalkForest05	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsWalkForest05_356AFD94.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Forest\WalkForest\FootstepsWalkForest05		101128
+	648916904	FootstepsWalkForest05	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsWalkForest05_A670BA3A.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Forest\WalkForest\FootstepsWalkForest05		101128
 	662013071	FootstepsWalkMud7	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsWalkMud7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Mud\WalkMud\FootstepsWalkMud7		116576
 	663307940	FindEgg3	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FindEgg3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\FindEgg\FindEgg3		484312
 	663726761	BirdsC2	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\BirdsC2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambiance\Ambiance\Birds\BirdsC\BirdsC2		639120
@@ -125,7 +127,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	692364962	FootstepsGrassRun2	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsGrassRun2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Grass\RunGrass\FootstepsGrassRun2		67960
 	700417462	GrappleShoot1	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\GrappleShoot1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Grapple\GrappleShoot\GrappleShoot1		152316
 	716445736	PlayerLand4	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\PlayerLand4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Land\PlayerLand4		129364
-	737116635	FootstepsWalkForest07	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsWalkForest07_E9F410DA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Forest\WalkForest\FootstepsWalkForest07		65920
+	737116635	FootstepsWalkForest07	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsWalkForest07_E6075B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Forest\WalkForest\FootstepsWalkForest07		65920
 	746046076	FootstepsWalkMud5	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsWalkMud5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Mud\WalkMud\FootstepsWalkMud5		99460
 	776561995	EnemyDie3	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\EnemyDie3_1C5B3D48.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Enemy\Die\EnemyDie3		555072
 	778630629	BirdsD3	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\BirdsD3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambiance\Ambiance\Birds\BirdsD\BirdsD3		224940
@@ -144,6 +146,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	868062214	GrappleShoot4	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\GrappleShoot4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Grapple\GrappleShoot\GrappleShoot4		128932
 	875920170	EnemyProjectile1	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\EnemyProjectile1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\EnemyProjectile\EnemyProjectile1		384064
 	883450232	WeaponThrow_HitRecoil1	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\WeaponThrow_HitRecoil1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Weapon\Throw\ThrowHitRecoil\WeaponThrow_HitRecoil1		125528
+	886896331	RetrieveWeapon2	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\RetrieveWeapon2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\RetrieveWeapon\RetrieveWeapon2		187560
 	900544124	WeaponHitImpact2	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\WeaponHitImpact2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Weapon\Throw\ThrowImpact\WeaponHitImpact2		122888
 	901469320	BirdsA2	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\BirdsA2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambiance\Ambiance\Birds\BirdsA\BirdsA2		714704
 	909752455	PlayerJump3	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\PlayerJump3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Jump\PlayerJump3		250540
@@ -164,7 +167,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1007811845	GrappleHit2	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\GrappleHit2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Grapple\GrappleHit\GrappleHit2		140184
 	1008767513	BirdsB2	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\BirdsB2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambiance\Ambiance\Birds\BirdsB\BirdsB2		901676
 	1011722478	EnemyIdle1	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\EnemyIdle1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Enemy\Idle\EnemyIdle1		199232
-	1014755606	FootstepsWalkForest10	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsWalkForest10_9ABA8429.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Forest\WalkForest\FootstepsWalkForest10		114608
+	1014755606	FootstepsWalkForest10	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsWalkForest10_85D58061.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Forest\WalkForest\FootstepsWalkForest10		114608
 	1022959001	PlayerThrowSwoosh1	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\PlayerThrowSwoosh1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Weapon\Throw\ThrowSwoosh\PlayerThrowSwoosh1		25780
 	1030356889	EnemyFire2	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\EnemyFire2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Enemy\FireProjectile\EnemyFire2		124976
 	1056877034	FootstepsGrassRun5	C:\Users\Nicolas\Documents\Projects\Games\GGJ2021-TBA\GGJ2021_TBA\GGJ2021_TBA_WwiseProject\.cache\Mac\SFX\FootstepsGrassRun5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Grass\RunGrass\FootstepsGrassRun5		60060

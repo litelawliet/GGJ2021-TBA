@@ -3,12 +3,13 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{A4365366-6CC6-4A87-829C-AB6756DEF971}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021_SFX\export\Stream\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Nicolas\Documents\Projects\Games\GGJ2021_SFX\export\Player\WeaponRetrieve\"/>
 				<Property Name="Event Action List\{0AC0EC56-0640-4206-863C-4782C2E002D4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0F874F93-2D84-40C4-BE1A-5CC005421692}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{14C83F01-A376-4DA6-A790-A9F993B3D196}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1F6C1561-051F-4696-BEDA-E7D51A707E44}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2EDB1644-2FA6-4B95-98E3-74BF4D64072F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{380BD3A1-7313-4A6B-8A9B-9567BFC5F203}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{418188A2-A636-467C-9772-42A88DB32710}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4433E684-26E7-4A07-AD62-62B7B2FA7C7A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{44685DBF-ADAA-426E-9BDB-18FE1B2C2B79}\x64_Expand States" Type="string" Value=""/>
@@ -86,7 +87,7 @@
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
-				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value="AAAAAAF0aGlyZACCQgAAACB+7udCAAAAgJSyh0IAAACwIPHlQgAAAICe04tCAAAABQAAAAAAAADQvUmLQgAAACB+7udCAAAAgJSyh0IAAAAgfu7nQgAAAICUsodCAAAAsCDx5UIAAABw0Df5QgAAAOC9SYtCAAAA0L1Ji0IAAAAgfu7nQgAAAAAAAAABc3RyZWFtAEIAAAAgfu7nQgAAAICUsodCAAAAsCDx5UIAAACAntOLQgAAAAUAAAAAAAAA0L1Ji0IAAAAgfu7nQgAAAICUsodCAAAAIH7u50IAAACAlLKHQgAAALAg8eVCAAAAcNA3+UIAAADgvUmLQgAAANC9SYtCAAAAIH7u50IAAAA="/>
+				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value="AAAAAAF0aGlyZABl/38AAAAAAAAAAAAAAAAAAAAAAAD+/////////wAAAAAAAAAAAAAAAAAAAACdxihF/38AAAA1FUrMAAAAAAAAAAAAAAABAAAAAAAAAKDaZVvMAAAAOPFbSMwAAAD2vShF/38AAOAUjEjMAAAA4BSMSMwAAABA2mVbzAAAAAAAAAABc3RyZWFtAP9/AAAAAAAAAAAAAAAAAAAAAAAA/v////////8AAAAAAAAAAAAAAAAAAAAAncYoRf9/AAAANRVKzAAAAAAAAAAAAAAAAQAAAAAAAACg2mVbzAAAADjxW0jMAAAA9r0oRf9/AADgFIxIzAAAAOAUjEjMAAAAQNplW8wAAAA="/>
 				<Property Name="Music Transition List\{16941BEF-D54B-4A4F-AB11-A095B20AB0CA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{1A7336FF-87A4-46CD-9227-EB6767259A91}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{6080DBD2-F0AC-4AAE-94BA-E7E5384C7034}\x64_Expand States" Type="string" Value=""/>

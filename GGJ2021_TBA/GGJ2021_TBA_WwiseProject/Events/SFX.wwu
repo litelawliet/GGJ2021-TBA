@@ -256,6 +256,31 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="GrappleHit" ID="{CFA242BD-2B31-425E-B835-966C5EC1708A}">
+							<ChildrenList>
+								<Action Name="" ID="{E5EABDF0-8E6C-4622-8F6C-96765F427A90}" ShortID="935040284">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GrappleHit" ID="{39B81C00-1137-4BC7-9F06-632DA77B9411}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RetrieveWeapon" ID="{380BD3A1-7313-4A6B-8A9B-9567BFC5F203}">
+							<ChildrenList>
+								<Action Name="" ID="{66A38E2F-A39F-4197-9FA2-2050FE370704}" ShortID="603743301">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RetrieveWeapon" ID="{7AD238B1-B455-483B-891B-E5368B63AF9F}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{D93BA8A7-4D19-4717-A595-9690F0D3C144}" ShortID="1489429">
@@ -387,21 +412,7 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Grapple" ID="{91A302C4-5FE6-42D0-98F7-4EBF4A3ECC4D}" ShortID="956034163">
-							<ChildrenList>
-								<Event Name="GrappleHit" ID="{CFA242BD-2B31-425E-B835-966C5EC1708A}">
-									<ChildrenList>
-										<Action Name="" ID="{E5EABDF0-8E6C-4622-8F6C-96765F427A90}" ShortID="935040284">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="GrappleHit" ID="{39B81C00-1137-4BC7-9F06-632DA77B9411}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-							</ChildrenList>
-						</Folder>
+						<Folder Name="Grapple" ID="{91A302C4-5FE6-42D0-98F7-4EBF4A3ECC4D}" ShortID="956034163"/>
 						<Folder Name="Enemy" ID="{CC4A0C1C-0535-41B8-B9BC-1C59B443C011}" ShortID="955543757">
 							<ChildrenList>
 								<Event Name="EnemyDie" ID="{67E90992-5D16-4640-A4A4-6036673728F7}">

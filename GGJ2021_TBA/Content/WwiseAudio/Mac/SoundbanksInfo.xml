@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="4230468239">
+		<SoundBank Id="393239870" Language="SFX" Hash="2078006060">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -194,7 +194,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1218826761" Name="GrappleHit" ObjectPath="\Events\Default Work Unit\SFX\Environment\Grapple\GrappleHit">
+				<Event Id="1218826761" Name="GrappleHit" ObjectPath="\Events\Default Work Unit\SFX\Player\GrappleHit">
 					<IncludedMemoryFiles>
 						<File Id="228181844" Language="SFX">
 							<ShortName>GrappleHit1.wav</ShortName>
@@ -604,6 +604,18 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="348961917" Name="RetrieveWeapon" ObjectPath="\Events\Default Work Unit\SFX\Player\RetrieveWeapon">
+					<IncludedMemoryFiles>
+						<File Id="23041734" Language="SFX">
+							<ShortName>RetrieveWeapon1.wav</ShortName>
+							<Path>SFX\RetrieveWeapon1_10C4C929.wem</Path>
+						</File>
+						<File Id="886896331" Language="SFX">
+							<ShortName>RetrieveWeapon2.wav</ShortName>
+							<Path>SFX\RetrieveWeapon2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1676813030" Name="TreeLoop_Start" ObjectPath="\Events\Default Work Unit\SFX\Environment\Trees\TreeLoop_Start">
 					<IncludedMemoryFiles>
 						<File Id="117138191" Language="SFX">
@@ -683,7 +695,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="1660475567">
+		<SoundBank Id="3991942870" Language="SFX" Hash="1877552333">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>

@@ -5,7 +5,10 @@
 			<ChildrenList>
 				<ActorMixer Name="Ambiance" ID="{FB235280-5AC3-4608-9ADB-7FA18521D59D}" ShortID="933736077">
 					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 						<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
@@ -1525,7 +1528,6 @@
 				</ActorMixer>
 				<ActorMixer Name="Player" ID="{536F0AC5-9B2D-4256-B5AE-CC6248058D55}" ShortID="252102926">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 					</PropertyList>
 					<ReferenceList>
@@ -3398,6 +3400,8 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="GrappleHit" ID="{39B81C00-1137-4BC7-9F06-632DA77B9411}" ShortID="722278066">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -3413,6 +3417,61 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{E62725B5-3FC0-436E-BE9D-D8DFF22E0541}" ShortID="150303604">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="20000"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{275BCEAA-17C1-40A6-ACE8-90712B8F8043}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>4012.5392</XPos>
+																			<YPos>0</YPos>
+																			<Flags>0</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>20000</XPos>
+																			<YPos>-24</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
 										</Reference>
@@ -3906,6 +3965,11 @@
 										<Value>17</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -3980,6 +4044,82 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="FindEgg3" ID="{0029EAF2-2B32-4E3A-B85F-BB1876A56947}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RetrieveWeapon" ID="{7AD238B1-B455-483B-891B-E5368B63AF9F}" ShortID="411137469">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2038EC6E-AFC3-492F-AFE0-CF430F59017F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
+													<Property Name="Min" Type="Real64" Value="-25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="RetrieveWeapon1" ID="{97550251-9966-4534-98AE-86CAB934C132}" ShortID="1011908906">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RetrieveWeapon1" ID="{E1649353-B0E4-4051-AD99-0F5E090B1E03}">
+											<Language>SFX</Language>
+											<AudioFile>RetrieveWeapon1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="23041734"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="RetrieveWeapon1" ID="{E1649353-B0E4-4051-AD99-0F5E090B1E03}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="RetrieveWeapon2" ID="{927AD461-6275-4E27-AE67-DAA89CB131CE}" ShortID="432303685">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RetrieveWeapon2" ID="{CC738F04-F5FE-4AE5-B545-75B3EC5E518C}">
+											<Language>SFX</Language>
+											<AudioFile>RetrieveWeapon2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="886896331"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="RetrieveWeapon2" ID="{CC738F04-F5FE-4AE5-B545-75B3EC5E518C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -5000,9 +5140,6 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Weapon" ID="{D5622EE4-1CF2-4132-9196-E4CFAB849D6E}" ShortID="194254218">
-					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
@@ -5126,11 +5263,13 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="ThrowImpact" ID="{5FF7BA61-7F04-48C5-8C63-8E75EEC2CAD1}" ShortID="803229818">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="Highpass" Type="int16">
 													<ValueList>
 														<Value>14</Value>
 													</ValueList>
 												</Property>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-1</Value>

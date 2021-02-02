@@ -26,6 +26,7 @@
 						<ObjectRef Name="PlayerWeaponThrow" ID="{89E4A163-F9C0-492C-9BC2-AA6B5AC5F9AB}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="WaterStreamLoop_Stop" ID="{59C03CD7-8C32-498B-9EF6-5EDD71F07D7E}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="EnemyIdle_Stop" ID="{4433E684-26E7-4A07-AD62-62B7B2FA7C7A}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RetrieveWeapon" ID="{380BD3A1-7313-4A6B-8A9B-9567BFC5F203}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LakeLoop_Stop" ID="{9EBD8BF0-9479-4B6C-B886-66BB3897749F}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerGrappleShoot" ID="{14C83F01-A376-4DA6-A790-A9F993B3D196}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerHit" ID="{B799B990-2E90-4E43-BEF5-5DAC0918DA09}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}" Origin="Manual" Filter="7"/>

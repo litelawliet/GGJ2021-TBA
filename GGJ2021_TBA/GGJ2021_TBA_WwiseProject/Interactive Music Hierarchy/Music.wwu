@@ -6,6 +6,8 @@
 				<MusicPlaylistContainer Name="MainMusic" ID="{1A7336FF-87A4-46CD-9227-EB6767259A91}" ShortID="890752613">
 					<PropertyList>
 						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="Tempo" Type="Real64" Value="96"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -519,8 +521,8 @@
 					<PositioningInfo>
 						<Panner Name="" ID="{EC220027-1669-4EED-9133-EA0AE846DA6E}">
 							<PropertyList>
-								<Property Name="PanX" Type="Real64" Value="-0.399999999999997"/>
-								<Property Name="PanY" Type="Real64" Value="99.1525423728814"/>
+								<Property Name="PanX" Type="Real64" Value="5.55111512312578E-17"/>
+								<Property Name="PanY" Type="Real64" Value="50"/>
 							</PropertyList>
 						</Panner>
 						<Position Name="" ID="{BBF4A096-B234-46B5-AFD4-DC157838D61F}"/>
@@ -900,6 +902,8 @@
 				<MusicPlaylistContainer Name="MainMenu" ID="{8CEBD1D4-A2F2-4EF6-9DA9-C0304B995ADE}" ShortID="742191743">
 					<PropertyList>
 						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>3</Value>
@@ -978,6 +982,14 @@
 							</CueList>
 						</MusicSegment>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{70E01A85-4F49-4983-AF48-BBA89B6027D4}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-3.88578058618805E-15"/>
+								<Property Name="PanY" Type="Real64" Value="50"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{ABB248D0-A4A2-4D9C-90EB-60717289C664}">
 							<PropertyList>
