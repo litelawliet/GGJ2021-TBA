@@ -4,6 +4,50 @@
 		<WorkUnit Name="Default Work Unit" ID="{B20F6334-0082-4614-A442-86DBD41FBF7B}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="SFX" ID="{860C3101-8D76-498C-A502-2820326EA2AC}" PersistMode="Reference"/>
+				<Sound Name="SmallStreamLoop1" ID="{433B4AC4-3BC8-462A-BD0E-1310CBDA5001}" ShortID="443947738">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SmallStreamLoop1" ID="{C7E5412A-26EF-47C0-BA1C-0E07BF1E9762}">
+							<Language>SFX</Language>
+							<AudioFile>SmallStreamLoop1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="389454894"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SmallStreamLoop1" ID="{C7E5412A-26EF-47C0-BA1C-0E07BF1E9762}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SmallStreamLoop2" ID="{D95D4F58-1B52-449D-9F7E-BA044C8AD5EE}" ShortID="268288145">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SmallStreamLoop2" ID="{29F06A1B-BC15-4981-AE53-676BB6A01C61}">
+							<Language>SFX</Language>
+							<AudioFile>SmallStreamLoop2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="371923028"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SmallStreamLoop2" ID="{29F06A1B-BC15-4981-AE53-676BB6A01C61}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

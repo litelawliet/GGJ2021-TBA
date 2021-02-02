@@ -5,6 +5,11 @@
 			<ChildrenList>
 				<Attenuation Name="Environment_Attenuation" ID="{E27639D1-2464-486E-970D-70E8543D1BB5}" ShortID="874271101">
 					<PropertyList>
+						<Property Name="ConeAttenuation" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
 						<Property Name="ConeInnerAngle" Type="int32" Value="65"/>
 						<Property Name="ConeLowPassFilterValue" Type="int32">
 							<ValueList>
@@ -32,13 +37,8 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>1003.1348</XPos>
-											<YPos>-1.3818</YPos>
-											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>1990.59561</XPos>
-											<YPos>-9.98152</YPos>
+											<XPos>1500</XPos>
+											<YPos>-9</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>

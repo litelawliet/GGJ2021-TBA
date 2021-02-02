@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="3045009373">
+		<SoundBank Id="393239870" Language="SFX" Hash="3074216559">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -214,6 +214,15 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2765684535" Name="LakeLoop_Start" ObjectPath="\Events\Default Work Unit\SFX\Environment\Water\LakeLoop_Start">
+					<IncludedMemoryFiles>
+						<File Id="635317261" Language="SFX">
+							<ShortName>Lake1.wav</ShortName>
+							<Path>SFX\Lake1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3976490909" Name="LakeLoop_Stop" ObjectPath="\Events\Default Work Unit\SFX\Environment\Water\LakeLoop_Stop"/>
 				<Event Id="2169369406" Name="PlayerAttack" ObjectPath="\Events\Default Work Unit\SFX\Player\PlayerAttack">
 					<IncludedMemoryFiles>
 						<File Id="198802508" Language="SFX">
@@ -613,7 +622,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="365012518" Name="TreeLoop_Stop" ObjectPath="\Events\Default Work Unit\SFX\Environment\Trees\TreeLoop_Stop"/>
-				<Event Id="1135007409" Name="WaterStreamLoop_Start" ObjectPath="\Events\Default Work Unit\SFX\Environment\WaterStream\WaterStreamLoop_Start">
+				<Event Id="1135007409" Name="WaterStreamLoop_Start" ObjectPath="\Events\Default Work Unit\SFX\Environment\Water\WaterStreamLoop_Start">
 					<IncludedMemoryFiles>
 						<File Id="371923028" Language="SFX">
 							<ShortName>SmallStreamLoop2.wav</ShortName>
@@ -625,7 +634,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4061945899" Name="WaterStreamLoop_Stop" ObjectPath="\Events\Default Work Unit\SFX\Environment\WaterStream\WaterStreamLoop_Stop"/>
+				<Event Id="4061945899" Name="WaterStreamLoop_Stop" ObjectPath="\Events\Default Work Unit\SFX\Environment\Water\WaterStreamLoop_Stop"/>
 				<Event Id="546269234" Name="WeaponThrowHit" ObjectPath="\Events\Default Work Unit\SFX\Environment\Weapon\WeaponThrowHit">
 					<IncludedMemoryFiles>
 						<File Id="125136486" Language="SFX">

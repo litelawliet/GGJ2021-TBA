@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="3074216559">
+		<SoundBank Id="393239870" Language="SFX" Hash="2610749167">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -218,7 +218,7 @@
 					<IncludedMemoryFiles>
 						<File Id="635317261" Language="SFX">
 							<ShortName>Lake1.wav</ShortName>
-							<Path>SFX\Lake1_10C4C929.wem</Path>
+							<Path>SFX\Lake1_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
