@@ -34,6 +34,14 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="PlayerJump" ID="{46A61E7A-3F22-4403-9D3C-10DD3A5796D8}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayerSlowTime_Start" ID="{9E5BCC36-2CAB-4118-B6D3-55E1412953A1}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="PlayerAttack" ID="{44685DBF-ADAA-426E-9BDB-18FE1B2C2B79}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
 							<Position X="1" Y="3"/>
 						</Module>
@@ -62,6 +70,10 @@
 							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="PlayerSlowTime_Stop" ID="{56F69015-1339-4642-8210-36697F8BFB51}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="ProjectileLoop_End" ID="{F29FCF20-AA44-4364-BFE2-B7F7FEBF34D7}" WorkUnitID="{AEFCB48E-E7FE-47E7-BAD5-1A1BC9C3CC89}"/>
 							<Position X="3" Y="0"/>
 						</Module>
@@ -85,8 +97,8 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Forest" ID="{25290BF0-B8D2-4678-A17B-A3CDEFB16988}"/>
-						<CurrentSwitchRef Name="Run" ID="{CB0EFCC9-7ECA-4940-B02B-CEB581453551}"/>
+						<CurrentSwitchRef Name="Grass" ID="{8AFF8771-D8A1-4859-8F98-E6CD66F0E4A0}"/>
+						<CurrentSwitchRef Name="Walk" ID="{9044CD28-CD34-438A-A281-27014D6208EE}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

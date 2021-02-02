@@ -1525,7 +1525,7 @@
 				</ActorMixer>
 				<ActorMixer Name="Player" ID="{536F0AC5-9B2D-4256-B5AE-CC6248058D55}" ShortID="252102926">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 					</PropertyList>
 					<ReferenceList>
@@ -2354,6 +2354,9 @@
 								<SwitchContainer Name="Forest" ID="{2AA2C6A5-768D-463F-BCD5-C1A7301FF21F}" ShortID="652803412">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{79367027-2450-4184-A72B-5805D97BC439}"/>
@@ -2379,6 +2382,11 @@
 										<RandomSequenceContainer Name="WalkForest" ID="{09352F21-4CFF-4302-958E-D4E5083F1D68}" ShortID="83704597">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>25</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2392,6 +2400,11 @@
 												<Sound Name="FootstepsWalkForest05" ID="{CAE4B3EB-4339-4434-AE6D-B69361AB33EE}" ShortID="473874631">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -2403,6 +2416,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="FootstepsWalkForest05" ID="{743244D7-53BE-4670-8D2B-AD0AC4E78B3D}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0298324786324786"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.019"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>FootstepsWalkForest05.wav</AudioFile>
 															<MediaIDList>
@@ -2428,6 +2446,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="FootstepsWalkForest06" ID="{5D0E809B-57C8-4444-8896-869033859577}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00931068376068376"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.018"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>FootstepsWalkForest06.wav</AudioFile>
 															<MediaIDList>
@@ -2450,6 +2473,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="FootstepsWalkForest07" ID="{7C8341D5-254E-4675-8F30-62FA382A8F13}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.213354166666667"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.343"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>FootstepsWalkForest07.wav</AudioFile>
 															<MediaIDList>
@@ -2462,6 +2490,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="FootstepsWalkForest08" ID="{FD24C92E-93F6-418B-B20E-78AB8E4F6853}" ShortID="801300801">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
@@ -2494,6 +2529,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="FootstepsWalkForest09" ID="{FBE458CD-8DFB-4AA2-BB02-771DE5A653E2}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.177157834757835"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.287"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>FootstepsWalkForest09.wav</AudioFile>
 															<MediaIDList>
@@ -2516,6 +2556,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="FootstepsWalkForest10" ID="{BA706384-623A-4FFE-B2B2-10B061F03E83}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0117631054131054"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.029"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>FootstepsWalkForest10.wav</AudioFile>
 															<MediaIDList>
@@ -3199,7 +3244,7 @@
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="Forest" ID="{25290BF0-B8D2-4678-A17B-A3CDEFB16988}"/>
+										<SwitchRef Name="Earth" ID="{25290BF0-B8D2-4678-A17B-A3CDEFB16988}"/>
 										<ItemList>
 											<ItemRef Name="Forest" ID="{2AA2C6A5-768D-463F-BCD5-C1A7301FF21F}"/>
 										</ItemList>
@@ -3603,7 +3648,7 @@
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>15</Value>
+										<Value>25</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Pitch" Type="int32">
@@ -3618,6 +3663,11 @@
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -3935,10 +3985,14 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{95F02A41-1984-4959-ADDA-6E27626B8CD5}"/>
+					</PositioningInfo>
 				</ActorMixer>
 				<ActorMixer Name="Environment" ID="{ABED681A-A6FA-4479-8DDC-DAD6000F8AB1}" ShortID="739034118">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -3955,6 +4009,7 @@
 						<RandomSequenceContainer Name="Stream" ID="{0CFD8112-50FB-431C-B817-C2A9BF3C04C7}" ShortID="652079187">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
 								<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
@@ -3982,131 +4037,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom CreatedFrom="{E27639D1-2464-486E-970D-70E8543D1BB5}">
-										<Attenuation Name="Environment_Attenuation (Custom)" ID="{C9F6ED08-2FE8-4D30-9D45-2B87979AE6DD}" ShortID="746258652">
-											<PropertyList>
-												<Property Name="ConeInnerAngle" Type="int32" Value="65"/>
-												<Property Name="ConeLowPassFilterValue" Type="int32">
-													<ValueList>
-														<Value>25</Value>
-													</ValueList>
-												</Property>
-												<Property Name="ConeUse" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="5000"/>
-											</PropertyList>
-											<CurveUsageInfoList>
-												<VolumeDryUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{D51FAD46-9197-4F6D-9071-C071A90DE082}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="3"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																</Point>
-																<Point>
-																	<XPos>1003.1348</XPos>
-																	<YPos>-1.3818</YPos>
-																	<Flags>0</Flags>
-																</Point>
-																<Point>
-																	<XPos>1990.59561</XPos>
-																	<YPos>-9.98152</YPos>
-																	<Flags>0</Flags>
-																</Point>
-																<Point>
-																	<XPos>3992.16301</XPos>
-																	<YPos>-19.59561</YPos>
-																	<Flags>0</Flags>
-																</Point>
-																<Point>
-																	<XPos>5000</XPos>
-																	<YPos>-200</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</VolumeDryUsage>
-												<VolumeWetGameUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetGameUsage>
-												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetUserUsage>
-												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="LowPassFilter" ID="{B4554E70-5BD2-468A-B10B-F5FEF558D8F9}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="65537"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																</Point>
-																<Point>
-																	<XPos>1003.1348</XPos>
-																	<YPos>0</YPos>
-																	<Flags>0</Flags>
-																</Point>
-																<Point>
-																	<XPos>3989.02821</XPos>
-																	<YPos>37</YPos>
-																	<Flags>0</Flags>
-																</Point>
-																<Point>
-																	<XPos>5000</XPos>
-																	<YPos>37</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</LowPassFilterUsage>
-												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</HighPassFilterUsage>
-												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
-														<Curve Name="Spread" ID="{B35EABC4-073E-437B-AF18-3D9EC30FA679}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="1"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>100</YPos>
-																	<Flags>5</Flags>
-																</Point>
-																<Point>
-																	<XPos>3001.56839</XPos>
-																	<YPos>0</YPos>
-																	<Flags>0</Flags>
-																</Point>
-																<Point>
-																	<XPos>5000</XPos>
-																	<YPos>0</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</SpreadUsage>
-												<FocusUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</FocusUsage>
-											</CurveUsageInfoList>
-										</Attenuation>
-									</Custom>
+									<ObjectRef Name="Environment_Attenuation" ID="{E27639D1-2464-486E-970D-70E8543D1BB5}" WorkUnitID="{887663A3-968C-4DC7-97ED-6CDF8AA51355}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
@@ -4380,6 +4311,8 @@
 						</RandomSequenceContainer>
 						<ActorMixer Name="Enemy" ID="{E06FE8DE-6E68-4698-9BA4-D5FC87E2E24B}" ShortID="690205126">
 							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>4</Value>
@@ -5038,8 +4971,12 @@
 						<Sound Name="LakeLoop" ID="{99DA3CB0-658C-4D00-99B8-51571E175BE8}" ShortID="948019307">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Environment_Attenuation" ID="{E27639D1-2464-486E-970D-70E8543D1BB5}" WorkUnitID="{887663A3-968C-4DC7-97ED-6CDF8AA51355}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
 								</Reference>
@@ -5371,16 +5308,6 @@
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
-				</ActorMixer>
-				<ActorMixer Name="New Actor-Mixer" ID="{076072F3-389D-4CFF-9FB5-555BDC00D12E}" ShortID="557003870">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
-						</Reference>
-					</ReferenceList>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

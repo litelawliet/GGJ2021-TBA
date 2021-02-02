@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="2610749167">
+		<SoundBank Id="393239870" Language="SFX" Hash="922788873">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -285,10 +285,6 @@
 							<ShortName>FootstepsWalkMud3.wav</ShortName>
 							<Path>SFX\FootstepsWalkMud3_10C4C929.wem</Path>
 						</File>
-						<File Id="277149056" Language="SFX">
-							<ShortName>FootstepsWalkForest08.wav</ShortName>
-							<Path>SFX\FootstepsWalkForest08_10C4C929.wem</Path>
-						</File>
 						<File Id="296382224" Language="SFX">
 							<ShortName>FootstepsGrassRun3.wav</ShortName>
 							<Path>SFX\FootstepsGrassRun3_10C4C929.wem</Path>
@@ -299,7 +295,7 @@
 						</File>
 						<File Id="336728472" Language="SFX">
 							<ShortName>FootstepsWalkForest09.wav</ShortName>
-							<Path>SFX\FootstepsWalkForest09_10C4C929.wem</Path>
+							<Path>SFX\FootstepsWalkForest09_92AA95BD.wem</Path>
 						</File>
 						<File Id="364786147" Language="SFX">
 							<ShortName>FootstepsGrassWalk6.wav</ShortName>
@@ -347,7 +343,7 @@
 						</File>
 						<File Id="648916904" Language="SFX">
 							<ShortName>FootstepsWalkForest05.wav</ShortName>
-							<Path>SFX\FootstepsWalkForest05_10C4C929.wem</Path>
+							<Path>SFX\FootstepsWalkForest05_356AFD94.wem</Path>
 						</File>
 						<File Id="662013071" Language="SFX">
 							<ShortName>FootstepsWalkMud7.wav</ShortName>
@@ -359,7 +355,7 @@
 						</File>
 						<File Id="737116635" Language="SFX">
 							<ShortName>FootstepsWalkForest07.wav</ShortName>
-							<Path>SFX\FootstepsWalkForest07_10C4C929.wem</Path>
+							<Path>SFX\FootstepsWalkForest07_E9F410DA.wem</Path>
 						</File>
 						<File Id="746046076" Language="SFX">
 							<ShortName>FootstepsWalkMud5.wav</ShortName>
@@ -379,7 +375,7 @@
 						</File>
 						<File Id="858121973" Language="SFX">
 							<ShortName>FootstepsWalkForest06.wav</ShortName>
-							<Path>SFX\FootstepsWalkForest06_10C4C929.wem</Path>
+							<Path>SFX\FootstepsWalkForest06_F4180B8C.wem</Path>
 						</File>
 						<File Id="912390083" Language="SFX">
 							<ShortName>FootstepsWalkMud2.wav</ShortName>
@@ -403,7 +399,7 @@
 						</File>
 						<File Id="1014755606" Language="SFX">
 							<ShortName>FootstepsWalkForest10.wav</ShortName>
-							<Path>SFX\FootstepsWalkForest10_10C4C929.wem</Path>
+							<Path>SFX\FootstepsWalkForest10_9ABA8429.wem</Path>
 						</File>
 						<File Id="1056877034" Language="SFX">
 							<ShortName>FootstepsGrassRun5.wav</ShortName>
@@ -446,7 +442,6 @@
 							<Children>
 								<SwitchContainer SwitchValue="{9044CD28-CD34-438A-A281-27014D6208EE}">
 									<Media>
-										<File Id="277149056"/>
 										<File Id="336728472"/>
 										<File Id="648916904"/>
 										<File Id="737116635"/>
@@ -672,7 +667,7 @@
 						<Switch Id="2144363834" Name="Rock" ObjectPath="\Switches\Default Work Unit\SFX\Terrain\Rock"/>
 						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\SFX\Terrain\Wood"/>
 						<Switch Id="712897245" Name="Mud" ObjectPath="\Switches\Default Work Unit\SFX\Terrain\Mud"/>
-						<Switch Id="491961918" Name="Forest" ObjectPath="\Switches\Default Work Unit\SFX\Terrain\Forest"/>
+						<Switch Id="3747705955" Name="Earth" ObjectPath="\Switches\Default Work Unit\SFX\Terrain\Earth"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="1493153371" Name="PlayerSpeed" ObjectPath="\Switches\Default Work Unit\SFX\PlayerSpeed">

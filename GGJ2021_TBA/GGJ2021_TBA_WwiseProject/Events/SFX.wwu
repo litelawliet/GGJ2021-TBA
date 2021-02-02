@@ -125,6 +125,43 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{E00614A3-E756-46CC-994C-79A61DAC6204}" ShortID="173222047">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Lowpass" Type="int16" Value="25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{487AFABD-4DB2-48FA-AC49-0F061788BF76}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1EEBFA0B-8303-41B7-970F-757E3AD67465}" ShortID="711474319">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+										<Property Name="Pitch" Type="int32" Value="-1200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jump" ID="{661A01D5-89CA-4EE0-A8D5-CE1157655AE4}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9C27ADA0-C111-4C58-A2C4-B35B6603A3A3}" ShortID="694720367">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+										<Property Name="Lowpass" Type="int16" Value="50"/>
+										<Property Name="Pitch" Type="int32" Value="-1200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jump" ID="{661A01D5-89CA-4EE0-A8D5-CE1157655AE4}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="PlayerSlowTime_Stop" ID="{56F69015-1339-4642-8210-36697F8BFB51}">
@@ -148,6 +185,39 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Ambiance" ID="{49A2FC4C-69AA-47C1-8754-13E7AA7F6B76}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C1E43229-0551-4CCF-A14D-C62F01DD4620}" ShortID="4518776">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="27"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{487AFABD-4DB2-48FA-AC49-0F061788BF76}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3829C8FB-E03C-46FF-9B00-8EA097BA1B17}" ShortID="474013423">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="18"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jump" ID="{661A01D5-89CA-4EE0-A8D5-CE1157655AE4}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D9F990AF-11E9-4FE7-80AE-D07017177506}" ShortID="841229141">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="27"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jump" ID="{661A01D5-89CA-4EE0-A8D5-CE1157655AE4}" WorkUnitID="{860C3101-8D76-498C-A502-2820326EA2AC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -16,7 +16,7 @@
 						<Switch Name="Rock" ID="{DEF3071C-1E23-4A65-BAD2-920F2691AD0F}"/>
 						<Switch Name="Wood" ID="{79ADF0D9-C798-48A1-9E63-E2BC848677E0}"/>
 						<Switch Name="Mud" ID="{77E0D293-122C-4850-AD4A-9319D9A7D7BA}"/>
-						<Switch Name="Forest" ID="{25290BF0-B8D2-4678-A17B-A3CDEFB16988}"/>
+						<Switch Name="Earth" ID="{25290BF0-B8D2-4678-A17B-A3CDEFB16988}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
