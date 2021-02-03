@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="2078006060">
+		<SoundBank Id="393239870" Language="SFX" Hash="250991691">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -265,6 +265,10 @@
 							<ShortName>FootstepsGrassWalk2.wav</ShortName>
 							<Path>SFX\FootstepsGrassWalk2_10C4C929.wem</Path>
 						</File>
+						<File Id="176392348" Language="SFX">
+							<ShortName>FootstepSand3.wav</ShortName>
+							<Path>SFX\FootstepSand3_10C4C929.wem</Path>
+						</File>
 						<File Id="187523989" Language="SFX">
 							<ShortName>FootstepsRunForest10.wav</ShortName>
 							<Path>SFX\FootstepsRunForest10_10C4C929.wem</Path>
@@ -285,6 +289,10 @@
 							<ShortName>FootstepsWalkMud3.wav</ShortName>
 							<Path>SFX\FootstepsWalkMud3_10C4C929.wem</Path>
 						</File>
+						<File Id="285189710" Language="SFX">
+							<ShortName>FootstepSand2.wav</ShortName>
+							<Path>SFX\FootstepSand2_10C4C929.wem</Path>
+						</File>
 						<File Id="296382224" Language="SFX">
 							<ShortName>FootstepsGrassRun3.wav</ShortName>
 							<Path>SFX\FootstepsGrassRun3_10C4C929.wem</Path>
@@ -297,9 +305,17 @@
 							<ShortName>FootstepsWalkForest09.wav</ShortName>
 							<Path>SFX\FootstepsWalkForest09_6D30A5F7.wem</Path>
 						</File>
+						<File Id="341804768" Language="SFX">
+							<ShortName>FootstepsWood4.wav</ShortName>
+							<Path>SFX\FootstepsWood4_10C4C929.wem</Path>
+						</File>
 						<File Id="364786147" Language="SFX">
 							<ShortName>FootstepsGrassWalk6.wav</ShortName>
 							<Path>SFX\FootstepsGrassWalk6_10C4C929.wem</Path>
+						</File>
+						<File Id="388306315" Language="SFX">
+							<ShortName>FootstepsWood1.wav</ShortName>
+							<Path>SFX\FootstepsWood1_10C4C929.wem</Path>
 						</File>
 						<File Id="517553928" Language="SFX">
 							<ShortName>FootstepsGrassWalk3.wav</ShortName>
@@ -312,6 +328,10 @@
 						<File Id="524746923" Language="SFX">
 							<ShortName>FootstepsRunMud5.wav</ShortName>
 							<Path>SFX\FootstepsRunMud5_10C4C929.wem</Path>
+						</File>
+						<File Id="532243879" Language="SFX">
+							<ShortName>FootstepsWood2.wav</ShortName>
+							<Path>SFX\FootstepsWood2_10C4C929.wem</Path>
 						</File>
 						<File Id="548186192" Language="SFX">
 							<ShortName>FootstepsRunForest09.wav</ShortName>
@@ -337,6 +357,10 @@
 							<ShortName>FootstepsGrassRun1.wav</ShortName>
 							<Path>SFX\FootstepsGrassRun1_10C4C929.wem</Path>
 						</File>
+						<File Id="643746897" Language="SFX">
+							<ShortName>FootstepSand1.wav</ShortName>
+							<Path>SFX\FootstepSand1_10C4C929.wem</Path>
+						</File>
 						<File Id="648274301" Language="SFX">
 							<ShortName>FootstepsRunForest05.wav</ShortName>
 							<Path>SFX\FootstepsRunForest05_10C4C929.wem</Path>
@@ -353,6 +377,10 @@
 							<ShortName>FootstepsGrassRun2.wav</ShortName>
 							<Path>SFX\FootstepsGrassRun2_10C4C929.wem</Path>
 						</File>
+						<File Id="728873415" Language="SFX">
+							<ShortName>FootstepsWood3.wav</ShortName>
+							<Path>SFX\FootstepsWood3_10C4C929.wem</Path>
+						</File>
 						<File Id="737116635" Language="SFX">
 							<ShortName>FootstepsWalkForest07.wav</ShortName>
 							<Path>SFX\FootstepsWalkForest07_E6075B12.wem</Path>
@@ -360,6 +388,10 @@
 						<File Id="746046076" Language="SFX">
 							<ShortName>FootstepsWalkMud5.wav</ShortName>
 							<Path>SFX\FootstepsWalkMud5_10C4C929.wem</Path>
+						</File>
+						<File Id="778830807" Language="SFX">
+							<ShortName>FootstepSand4.wav</ShortName>
+							<Path>SFX\FootstepSand4_10C4C929.wem</Path>
 						</File>
 						<File Id="787072730" Language="SFX">
 							<ShortName>FootstepsWalkMud8.wav</ShortName>
@@ -483,6 +515,48 @@
 										<File Id="517553928"/>
 										<File Id="518184088"/>
 										<File Id="606901833"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{79ADF0D9-C798-48A1-9E63-E2BC848677E0}">
+							<DefaultSwitchValue>{9044CD28-CD34-438A-A281-27014D6208EE}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{CB0EFCC9-7ECA-4940-B02B-CEB581453551}">
+									<Media>
+										<File Id="341804768"/>
+										<File Id="388306315"/>
+										<File Id="532243879"/>
+										<File Id="728873415"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{9044CD28-CD34-438A-A281-27014D6208EE}">
+									<Media>
+										<File Id="341804768"/>
+										<File Id="388306315"/>
+										<File Id="532243879"/>
+										<File Id="728873415"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2B425D82-656E-480F-9D8F-5600A1769FCF}">
+							<DefaultSwitchValue>{9044CD28-CD34-438A-A281-27014D6208EE}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{CB0EFCC9-7ECA-4940-B02B-CEB581453551}">
+									<Media>
+										<File Id="176392348"/>
+										<File Id="285189710"/>
+										<File Id="643746897"/>
+										<File Id="778830807"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{9044CD28-CD34-438A-A281-27014D6208EE}">
+									<Media>
+										<File Id="176392348"/>
+										<File Id="285189710"/>
+										<File Id="643746897"/>
+										<File Id="778830807"/>
 									</Media>
 								</SwitchContainer>
 							</Children>
@@ -695,7 +769,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="1017584474">
+		<SoundBank Id="3991942870" Language="SFX" Hash="2358545694">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
