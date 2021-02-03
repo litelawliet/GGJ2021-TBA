@@ -1864,7 +1864,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>1</Value>
+										<Value>-1</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -3820,6 +3820,615 @@
 										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
+								<SwitchContainer Name="Rock" ID="{9E0E7A8D-B3D9-48E3-AA7D-E9A88525B487}" ShortID="616997879">
+									<PropertyList>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>32</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Walk" ID="{9044CD28-CD34-438A-A281-27014D6208EE}" WorkUnitID="{0721F533-9433-4DE5-B111-7A3BBDEF325C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Player" ID="{0B705C30-B5B3-45E1-8AA6-5F1DD52C7162}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="PlayerSpeed" ID="{4DCD760E-1570-47C3-8285-074723FC0DB3}" WorkUnitID="{0721F533-9433-4DE5-B111-7A3BBDEF325C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="RunRock" ID="{7B24B951-4D7C-4291-B6EA-C5B6BC50E14B}" ShortID="221225778">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="FootstepsRock4" ID="{C0F21E14-0C5C-4052-B22C-0259A03ED560}" ShortID="1071003306">
+													<PropertyList>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Player" ID="{0B705C30-B5B3-45E1-8AA6-5F1DD52C7162}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FootstepsRock4" ID="{8BD74B89-AF6A-46DA-8C61-03486DA2DB6D}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsRock4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="129871413"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="FootstepsRock1" ID="{CB2F05EB-8311-4EA1-BD6A-7D11510FBE48}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsRock1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="897971261"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="FootstepsRock2" ID="{BE6C4B52-2100-4882-8A9B-A5196379495B}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsRock2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="69513367"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="FootstepsRock3" ID="{2D2F516C-6615-4374-B62C-602EB6B36465}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsRock3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="436121063"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{C8340698-B91F-4017-AAA9-B323A9674DCC}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="FootstepsRock4" ID="{8BD74B89-AF6A-46DA-8C61-03486DA2DB6D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FootstepsRock1" ID="{DF30462C-19ED-416B-A972-61294BA7AB01}" ShortID="125453022">
+													<PropertyList>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Player" ID="{0B705C30-B5B3-45E1-8AA6-5F1DD52C7162}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FootstepsRock1" ID="{70F22033-20FF-4B10-8E78-79F2BECC76A3}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsRock1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="897971261"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{24779EC8-E32F-4231-BD51-9269A77BDF9E}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="FootstepsRock1" ID="{70F22033-20FF-4B10-8E78-79F2BECC76A3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FootstepsRock3" ID="{317A4CDF-B2A0-47CE-AAF3-CEA01E44B744}" ShortID="602187843">
+													<PropertyList>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Player" ID="{0B705C30-B5B3-45E1-8AA6-5F1DD52C7162}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FootstepsRock3" ID="{D109517F-F641-4859-A1DD-6537DDA26270}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsRock3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="436121063"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{5C1E6135-1BA2-44D2-99B1-7F8399127EDC}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="FootstepsRock3" ID="{D109517F-F641-4859-A1DD-6537DDA26270}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FootstepsRock2" ID="{E306BA11-78E7-48EF-AEC8-9B98BEE7FEF6}" ShortID="499949412">
+													<PropertyList>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Player" ID="{0B705C30-B5B3-45E1-8AA6-5F1DD52C7162}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FootstepsRock2" ID="{8987CB42-309E-4C99-A423-BB08942139CB}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsRock2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="69513367"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{8E4801EA-242F-4303-BEF4-B0809A12B80B}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="FootstepsRock2" ID="{8987CB42-309E-4C99-A423-BB08942139CB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="WalkRock" ID="{59FEE4CB-5BF4-4C3E-A5A3-FAAF40EB4577}" ShortID="692651425">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="FootstepsRock1" ID="{155E1B53-B5F9-4011-AF88-DE6B6E115A94}" ShortID="779214678">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FootstepsRock1" ID="{62CE6310-162E-47A9-988A-30BBF3A73D54}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsRock1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="897971261"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FootstepsRock1" ID="{62CE6310-162E-47A9-988A-30BBF3A73D54}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FootstepsRock2" ID="{26544DAA-9EF9-4F49-80E3-E6666090E7E1}" ShortID="1003619304">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FootstepsRock2" ID="{F8938286-1625-48FC-8366-6072C8DA2281}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsRock2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="69513367"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FootstepsRock2" ID="{F8938286-1625-48FC-8366-6072C8DA2281}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FootstepsRock3" ID="{EF78B656-6F19-45A8-87E8-DFC24CDC6C86}" ShortID="655436621">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FootstepsRock3" ID="{79396EF8-CD38-4FB6-B0CB-C41578632B9E}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsRock3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="436121063"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FootstepsRock3" ID="{79396EF8-CD38-4FB6-B0CB-C41578632B9E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FootstepsRock4" ID="{9EB91961-95D8-4D9E-833B-8DDB51166DB4}" ShortID="809136536">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FootstepsRock4" ID="{769D7C49-1857-41C3-B4CB-D8A478317A97}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsRock4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="129871413"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FootstepsRock4" ID="{769D7C49-1857-41C3-B4CB-D8A478317A97}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{52163A3F-0417-497A-8F27-99DF88027985}"/>
+									</PositioningInfo>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="RunRock" ID="{7B24B951-4D7C-4291-B6EA-C5B6BC50E14B}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="WalkRock" ID="{59FEE4CB-5BF4-4C3E-A5A3-FAAF40EB4577}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Walk" ID="{9044CD28-CD34-438A-A281-27014D6208EE}"/>
+												<ItemList>
+													<ItemRef Name="WalkRock" ID="{59FEE4CB-5BF4-4C3E-A5A3-FAAF40EB4577}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Run" ID="{CB0EFCC9-7ECA-4940-B02B-CEB581453551}"/>
+												<ItemList>
+													<ItemRef Name="RunRock" ID="{7B24B951-4D7C-4291-B6EA-C5B6BC50E14B}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Water" ID="{FF72B7EE-78E5-434D-943A-952FCCDB668A}" ShortID="197561755">
+									<PropertyList>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>18</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Walk" ID="{9044CD28-CD34-438A-A281-27014D6208EE}" WorkUnitID="{0721F533-9433-4DE5-B111-7A3BBDEF325C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Player" ID="{0B705C30-B5B3-45E1-8AA6-5F1DD52C7162}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="PlayerSpeed" ID="{4DCD760E-1570-47C3-8285-074723FC0DB3}" WorkUnitID="{0721F533-9433-4DE5-B111-7A3BBDEF325C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="RunWater" ID="{A7BDE697-EE08-4C5A-8FC5-B700B254C500}" ShortID="98120229">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>23</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="FootstepsWater4" ID="{E28C269C-B35C-46B8-8EC9-DBD33FD2F98E}" ShortID="802245922">
+													<PropertyList>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Player" ID="{0B705C30-B5B3-45E1-8AA6-5F1DD52C7162}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FootstepsWater4" ID="{940BB947-4440-4819-A18B-F287251209E1}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsWater4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="658744724"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{09BFB038-485A-43C9-B983-A3DE17023DFE}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="FootstepsWater4" ID="{940BB947-4440-4819-A18B-F287251209E1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FootstepsWater2" ID="{3CF586B9-DB1D-4F74-9AFB-9020E5086653}" ShortID="143847567">
+													<PropertyList>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Player" ID="{0B705C30-B5B3-45E1-8AA6-5F1DD52C7162}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FootstepsWater2" ID="{0D10F0BE-08F0-40D5-8F65-DACFD7420448}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsWater2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="576580726"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{224E95F7-F119-4350-A2E2-0FCEB709B1C3}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="FootstepsWater2" ID="{0D10F0BE-08F0-40D5-8F65-DACFD7420448}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FootstepsWater3" ID="{ECE87015-ACD6-4337-AA05-8B8EB52E8F1B}" ShortID="242814929">
+													<PropertyList>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Player" ID="{0B705C30-B5B3-45E1-8AA6-5F1DD52C7162}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FootstepsWater3" ID="{B8510D5A-BFF3-47A6-9C82-7B3B67CF2A06}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsWater3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="856192359"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{A932342D-CCD9-4918-826D-F988E18E3F44}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="FootstepsWater3" ID="{B8510D5A-BFF3-47A6-9C82-7B3B67CF2A06}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FootstepsWater1" ID="{6D84E293-18C6-4E57-89BD-2235DC457280}" ShortID="950954911">
+													<PropertyList>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Player" ID="{0B705C30-B5B3-45E1-8AA6-5F1DD52C7162}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FootstepsWater1" ID="{EF70A2A8-6474-447A-A0E5-4BB509C819D0}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsWater1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="973841229"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{70CFC3F7-B095-4042-8845-FEF5F319ECB2}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="FootstepsWater1" ID="{EF70A2A8-6474-447A-A0E5-4BB509C819D0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="WalkWater" ID="{8A663EE4-6DE8-4166-A391-EAB0E9629805}" ShortID="197589147">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="FootstepsWater1" ID="{7DD65D8C-84EB-4A81-99F9-1BDBF7948F47}" ShortID="760813598">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FootstepsWater1" ID="{81776CDD-5419-4C49-8AF5-7B7DE7135876}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsWater1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="973841229"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FootstepsWater1" ID="{81776CDD-5419-4C49-8AF5-7B7DE7135876}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FootstepsWater2" ID="{619F5D1D-80F1-4939-AE55-8794E8BD7E66}" ShortID="407830626">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FootstepsWater2" ID="{22FC7DCA-08B9-4108-8982-A3C3592FDDC8}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsWater2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="576580726"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FootstepsWater2" ID="{22FC7DCA-08B9-4108-8982-A3C3592FDDC8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FootstepsWater3" ID="{0BB7F36E-A39D-45FB-8FA9-ED3EAA11905D}" ShortID="820208967">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FootstepsWater3" ID="{34D257B1-3502-477E-9C06-D99C6E3AB40C}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsWater3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="856192359"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FootstepsWater3" ID="{34D257B1-3502-477E-9C06-D99C6E3AB40C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FootstepsWater4" ID="{C4AC5687-BA8A-42DB-A665-66B395D21949}" ShortID="437277108">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B53CF089-0A09-47DD-8102-1FC37E9A5C13}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FootstepsWater4" ID="{FE48DF6F-BA10-49C2-9ED8-B9D40BEAF7B4}">
+															<Language>SFX</Language>
+															<AudioFile>FootstepsWater4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="658744724"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FootstepsWater4" ID="{FE48DF6F-BA10-49C2-9ED8-B9D40BEAF7B4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{9EFFCFFC-EEE5-49A8-91E2-66AC33C4C6A5}"/>
+									</PositioningInfo>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="RunWater" ID="{A7BDE697-EE08-4C5A-8FC5-B700B254C500}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="WalkWater" ID="{8A663EE4-6DE8-4166-A391-EAB0E9629805}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Walk" ID="{9044CD28-CD34-438A-A281-27014D6208EE}"/>
+												<ItemList>
+													<ItemRef Name="WalkWater" ID="{8A663EE4-6DE8-4166-A391-EAB0E9629805}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Run" ID="{CB0EFCC9-7ECA-4940-B02B-CEB581453551}"/>
+												<ItemList>
+													<ItemRef Name="RunWater" ID="{A7BDE697-EE08-4C5A-8FC5-B700B254C500}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -3833,17 +4442,29 @@
 										<ItemRef Name="Wood" ID="{1A231E8D-2445-460E-82A1-277930FFEA84}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
+										<ItemRef Name="Rock" ID="{9E0E7A8D-B3D9-48E3-AA7D-E9A88525B487}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
 										<ItemRef Name="Forest" ID="{2AA2C6A5-768D-463F-BCD5-C1A7301FF21F}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Sand" ID="{8B3AF9A9-1528-4ED4-A2A0-FCA7D8AE3194}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Water" ID="{FF72B7EE-78E5-434D-943A-952FCCDB668A}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
 										<SwitchRef Name="Rock" ID="{DEF3071C-1E23-4A65-BAD2-920F2691AD0F}"/>
 										<ItemList>
-											<ItemRef Name="Forest" ID="{2AA2C6A5-768D-463F-BCD5-C1A7301FF21F}"/>
+											<ItemRef Name="Rock" ID="{9E0E7A8D-B3D9-48E3-AA7D-E9A88525B487}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Water" ID="{A2B5A229-31F0-4DDC-8F39-EA6D9615876D}"/>
+										<ItemList>
+											<ItemRef Name="Water" ID="{FF72B7EE-78E5-434D-943A-952FCCDB668A}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -4043,59 +4664,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<Custom>
-												<Attenuation Name="Attenuation (Custom)" ID="{E62725B5-3FC0-436E-BE9D-D8DFF22E0541}" ShortID="150303604">
-													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="20000"/>
-													</PropertyList>
-													<CurveUsageInfoList>
-														<VolumeDryUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="VolumeDry" ID="{275BCEAA-17C1-40A6-ACE8-90712B8F8043}">
-																	<PropertyList>
-																		<Property Name="Flags" Type="int32" Value="3"/>
-																	</PropertyList>
-																	<PointList>
-																		<Point>
-																			<XPos>0</XPos>
-																			<YPos>0</YPos>
-																			<Flags>5</Flags>
-																		</Point>
-																		<Point>
-																			<XPos>4012.5392</XPos>
-																			<YPos>0</YPos>
-																			<Flags>0</Flags>
-																		</Point>
-																		<Point>
-																			<XPos>20000</XPos>
-																			<YPos>-24</YPos>
-																			<Flags>37</Flags>
-																		</Point>
-																	</PointList>
-																</Curve>
-															</CurveUsageInfo>
-														</VolumeDryUsage>
-														<VolumeWetGameUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-														</VolumeWetGameUsage>
-														<VolumeWetUserUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-														</VolumeWetUserUsage>
-														<LowPassFilterUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-														</LowPassFilterUsage>
-														<HighPassFilterUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-														</HighPassFilterUsage>
-														<SpreadUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-														</SpreadUsage>
-														<FocusUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-														</FocusUsage>
-													</CurveUsageInfoList>
-												</Attenuation>
-											</Custom>
+											<ObjectRef Name="WeaponImpact_Attenuation" ID="{C09B6EF7-41B6-44E4-AFEB-57E22AD8C52C}" WorkUnitID="{887663A3-968C-4DC7-97ED-6CDF8AA51355}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
@@ -4796,7 +5365,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -5613,6 +6182,11 @@
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -5778,6 +6352,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="WeaponImpact_Attenuation" ID="{C09B6EF7-41B6-44E4-AFEB-57E22AD8C52C}" WorkUnitID="{887663A3-968C-4DC7-97ED-6CDF8AA51355}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AB3045F-6A38-469E-A1DA-55273D2832EA}"/>
 												</Reference>

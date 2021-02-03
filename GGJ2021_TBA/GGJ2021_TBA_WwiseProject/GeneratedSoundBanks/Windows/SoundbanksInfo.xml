@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="250991691">
+		<SoundBank Id="393239870" Language="SFX" Hash="2596113483">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -253,9 +253,17 @@
 							<ShortName>FootstepsGrassWalk5.wav</ShortName>
 							<Path>SFX\FootstepsGrassWalk5_10C4C929.wem</Path>
 						</File>
+						<File Id="69513367" Language="SFX">
+							<ShortName>FootstepsRock2.wav</ShortName>
+							<Path>SFX\FootstepsRock2_10C4C929.wem</Path>
+						</File>
 						<File Id="125408381" Language="SFX">
 							<ShortName>FootstepsWalkMud6.wav</ShortName>
 							<Path>SFX\FootstepsWalkMud6_10C4C929.wem</Path>
+						</File>
+						<File Id="129871413" Language="SFX">
+							<ShortName>FootstepsRock4.wav</ShortName>
+							<Path>SFX\FootstepsRock4_10C4C929.wem</Path>
 						</File>
 						<File Id="130552875" Language="SFX">
 							<ShortName>FootstepsWalkMud4.wav</ShortName>
@@ -317,6 +325,10 @@
 							<ShortName>FootstepsWood1.wav</ShortName>
 							<Path>SFX\FootstepsWood1_10C4C929.wem</Path>
 						</File>
+						<File Id="436121063" Language="SFX">
+							<ShortName>FootstepsRock3.wav</ShortName>
+							<Path>SFX\FootstepsRock3_10C4C929.wem</Path>
+						</File>
 						<File Id="517553928" Language="SFX">
 							<ShortName>FootstepsGrassWalk3.wav</ShortName>
 							<Path>SFX\FootstepsGrassWalk3_10C4C929.wem</Path>
@@ -340,6 +352,10 @@
 						<File Id="558004323" Language="SFX">
 							<ShortName>FootstepsRunForest01.wav</ShortName>
 							<Path>SFX\FootstepsRunForest01_10C4C929.wem</Path>
+						</File>
+						<File Id="576580726" Language="SFX">
+							<ShortName>FootstepsWater2.wav</ShortName>
+							<Path>SFX\FootstepsWater2_10C4C929.wem</Path>
 						</File>
 						<File Id="606901833" Language="SFX">
 							<ShortName>FootstepsGrassWalk4.wav</ShortName>
@@ -368,6 +384,10 @@
 						<File Id="648916904" Language="SFX">
 							<ShortName>FootstepsWalkForest05.wav</ShortName>
 							<Path>SFX\FootstepsWalkForest05_A670BA3A.wem</Path>
+						</File>
+						<File Id="658744724" Language="SFX">
+							<ShortName>FootstepsWater4.wav</ShortName>
+							<Path>SFX\FootstepsWater4_10C4C929.wem</Path>
 						</File>
 						<File Id="662013071" Language="SFX">
 							<ShortName>FootstepsWalkMud7.wav</ShortName>
@@ -405,9 +425,17 @@
 							<ShortName>FootstepsRunMud6.wav</ShortName>
 							<Path>SFX\FootstepsRunMud6_10C4C929.wem</Path>
 						</File>
+						<File Id="856192359" Language="SFX">
+							<ShortName>FootstepsWater3.wav</ShortName>
+							<Path>SFX\FootstepsWater3_10C4C929.wem</Path>
+						</File>
 						<File Id="858121973" Language="SFX">
 							<ShortName>FootstepsWalkForest06.wav</ShortName>
 							<Path>SFX\FootstepsWalkForest06_F4180B8C.wem</Path>
+						</File>
+						<File Id="897971261" Language="SFX">
+							<ShortName>FootstepsRock1.wav</ShortName>
+							<Path>SFX\FootstepsRock1_10C4C929.wem</Path>
 						</File>
 						<File Id="912390083" Language="SFX">
 							<ShortName>FootstepsWalkMud2.wav</ShortName>
@@ -424,6 +452,10 @@
 						<File Id="957194497" Language="SFX">
 							<ShortName>FootstepsRunMud3.wav</ShortName>
 							<Path>SFX\FootstepsRunMud3_10C4C929.wem</Path>
+						</File>
+						<File Id="973841229" Language="SFX">
+							<ShortName>FootstepsWater1.wav</ShortName>
+							<Path>SFX\FootstepsWater1_10C4C929.wem</Path>
 						</File>
 						<File Id="977422914" Language="SFX">
 							<ShortName>FootstepsWalkMud1.wav</ShortName>
@@ -469,7 +501,7 @@
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{DEF3071C-1E23-4A65-BAD2-920F2691AD0F}">
+						<SwitchContainer SwitchValue="{25290BF0-B8D2-4678-A17B-A3CDEFB16988}">
 							<DefaultSwitchValue>{9044CD28-CD34-438A-A281-27014D6208EE}</DefaultSwitchValue>
 							<Children>
 								<SwitchContainer SwitchValue="{9044CD28-CD34-438A-A281-27014D6208EE}">
@@ -557,6 +589,48 @@
 										<File Id="285189710"/>
 										<File Id="643746897"/>
 										<File Id="778830807"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{DEF3071C-1E23-4A65-BAD2-920F2691AD0F}">
+							<DefaultSwitchValue>{9044CD28-CD34-438A-A281-27014D6208EE}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{CB0EFCC9-7ECA-4940-B02B-CEB581453551}">
+									<Media>
+										<File Id="69513367"/>
+										<File Id="129871413"/>
+										<File Id="436121063"/>
+										<File Id="897971261"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{9044CD28-CD34-438A-A281-27014D6208EE}">
+									<Media>
+										<File Id="69513367"/>
+										<File Id="129871413"/>
+										<File Id="436121063"/>
+										<File Id="897971261"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A2B5A229-31F0-4DDC-8F39-EA6D9615876D}">
+							<DefaultSwitchValue>{9044CD28-CD34-438A-A281-27014D6208EE}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{CB0EFCC9-7ECA-4940-B02B-CEB581453551}">
+									<Media>
+										<File Id="576580726"/>
+										<File Id="658744724"/>
+										<File Id="856192359"/>
+										<File Id="973841229"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{9044CD28-CD34-438A-A281-27014D6208EE}">
+									<Media>
+										<File Id="576580726"/>
+										<File Id="658744724"/>
+										<File Id="856192359"/>
+										<File Id="973841229"/>
 									</Media>
 								</SwitchContainer>
 							</Children>
@@ -754,6 +828,7 @@
 						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\SFX\Terrain\Wood"/>
 						<Switch Id="712897245" Name="Mud" ObjectPath="\Switches\Default Work Unit\SFX\Terrain\Mud"/>
 						<Switch Id="3747705955" Name="Earth" ObjectPath="\Switches\Default Work Unit\SFX\Terrain\Earth"/>
+						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\SFX\Terrain\Water"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="1493153371" Name="PlayerSpeed" ObjectPath="\Switches\Default Work Unit\SFX\PlayerSpeed">

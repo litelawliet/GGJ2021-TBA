@@ -97,8 +97,8 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Wood" ID="{79ADF0D9-C798-48A1-9E63-E2BC848677E0}"/>
-						<CurrentSwitchRef Name="Walk" ID="{9044CD28-CD34-438A-A281-27014D6208EE}"/>
+						<CurrentSwitchRef Name="Earth" ID="{25290BF0-B8D2-4678-A17B-A3CDEFB16988}"/>
+						<CurrentSwitchRef Name="Run" ID="{CB0EFCC9-7ECA-4940-B02B-CEB581453551}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
