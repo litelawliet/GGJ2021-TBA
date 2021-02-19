@@ -31,6 +31,19 @@
 				"Linux",
 				"Mac"
 			]
+		},
+		{
+			"Name": "MegascansPlugin",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		},
+		{
+			"Name": "HoudiniEngine",
+			"Enabled": true
 		}
 	]
 }
